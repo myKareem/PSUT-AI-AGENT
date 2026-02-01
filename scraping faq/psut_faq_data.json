@@ -1,0 +1,223 @@
+{
+  "scrape_metadata": {
+    "scrape_date": "2026-02-01T18:06:13.603707",
+    "source_url": "https://www.psut.edu.jo/ar/faq",
+    "total_categories": 4,
+    "total_questions": 30,
+    "language": "Arabic"
+  },
+  "categories": [
+    {
+      "category_id": 1,
+      "category_name": "التسجيل",
+      "category_url": "https://www.psut.edu.jo/ar/faq/faq-category2",
+      "question_count": 8,
+      "questions": [
+        {
+          "question_id": 1,
+          "question": "كيف أعرف مرشدي الأكاديمي ؟",
+          "answer": "عندما يقوم القسم الأكاديمي بتحديد المرشد الأكاديمي لك يمكنك معرفته من خلال الدخول لبوابة الطالب الإلكترونية عبر الرابط التالي: https://portal.psut.edu.jo (https://regnew.psut.edu.jo/) ثم أختر قائمة \"بيانات الطالب\". ثم أختر \"ملف الطالب\". ثم تصفح قسم \"بيانات أكاديمية\".",
+          "category": "التسجيل"
+        },
+        {
+          "question_id": 2,
+          "question": "متى أستلم الهوية الجامعية؟",
+          "answer": "عند بداية التدريس وإذا كانت لديك محاضرة أو مختبر في الجامعة فيمكنك حينها مراجعة عمادة شؤون الطلبة. قبل حصولك على الهوية يمكنك الإعتماد على الوصل المالي الذي يوجد فيه الرقم الجامعي مع هويتك الشخصية للدخول للجامعة وللدخول إلى المحاضرات.",
+          "category": "التسجيل"
+        },
+        {
+          "question_id": 3,
+          "question": "انا طالب مستجد، كيف يمكنني الدخول لبوابة الطالب الإلكترونية (نظام الطالب)؟",
+          "answer": "يمكنك الدخول لبوابة الطالب الإلكترونية عبر الرابط التالي: https://portal.psut.edu.jo (https://regnew.psut.edu.jo/) أدخل اسم المستخدم ( الرقم الجامعي ). ثم أدخل كلمة السر : التي تم تزويدك بها عند دفع الرسوم وصرف رقم جامعي. ثم قم بالموافقة على الشروط. ثم قم بتغيير كلمة السر.",
+          "category": "التسجيل"
+        },
+        {
+          "question_id": 4,
+          "question": "لقد تخرجت، كيف استطيع عمل براءة ذمة واستلام شهاداتي؟",
+          "answer": "1- أدخل لبوابة الطالب الإلكترونية عبر الرابط التالي: https://portal.psut.edu.jo (https://regnew.psut.edu.jo/) ثم أختر \" الخدمات الإلكترونية\". ثم اضغط على كبسة \" طلب خدمة\". ثم أختر من القائمة خدمة \" طلب براءة ذمة\". ثم أختر من قائمة سبب الإجراء \"تخرج\". ثم الضغط على كبسة \"تأكيد\". 2- مراجعة عمادة شؤون الطلبة مع تسليم الهوية. 3- مراجعة المكتبة. 4- مراجعة مختبرات الكلية. 5- مراجعة الدائرة المالية. 6- مراجعة قسم الخريجين لإستلام الشهادات.",
+          "category": "التسجيل"
+        },
+        {
+          "question_id": 5,
+          "question": "لقد نسيت كلمة السر لبوابة الطالب الإلكترونية وإيميلي؟",
+          "answer": "أدخل لبوابة الطالب الإلكترونية عبر الرابط التالي: https://portal.psut.edu.jo (https://regnew.psut.edu.jo/) أضغط على رابط \" هل نسيت كلمة السر؟ \". ثم أدخل اسم المستخدم (الرقم الجامعي). ثم ضع tick أمام جملة \" I am not a robt \". ثم اضغط على كبسة \"ارسال\". سيتم ارسال رسالة إلى البريد الالكتروني ورقم هاتفك المعتمد ومن خلاله تستطيع تغيير كلمة السر الخاصة بك. ثم ارجع لبوابة الطالب الإلكترونية مرة أخرى والدخول للنظام.",
+          "category": "التسجيل"
+        },
+        {
+          "question_id": 6,
+          "question": "انا طالب مستجد، كيف يمكنني الدخول للبريد الإلكتروني ؟",
+          "answer": "بعد الدخول لبوابة الطالب الإكترونية لأول مرة وتغيير كلمة السر: أدخل إلى الرابط التالي: www.gmail.com (http://www.gmail.com/) www.gmail.com . ثم أَدخل إيميلك الجامعي. ثم أَدخل نفس كلمة السر لبوابة الطالب الإكترونية.",
+          "category": "التسجيل"
+        },
+        {
+          "question_id": 7,
+          "question": "مع من أتواصل عند وجود مشكلة أو أستفسار يتعلق بالتسجيل أو المالية؟",
+          "answer": "من خلال بريدك الإلكتروني الجامعي يمكنك ارسال أي سؤال أو استفسار أو طلب إلى إيميل الخدمات الإلكترونية وسيصل مباشرة إلى عميد القبول والتسجيل والذي يقوم بإتخاذ القرار المناسب أو تحويله للجهة المختصة dar@psut.edu.jo (mailto:dar@psut.edu.jo)",
+          "category": "التسجيل"
+        },
+        {
+          "question_id": 8,
+          "question": "كيف أعرف المواد المسجلة لي؟",
+          "answer": "أدخل لبوابة الطالب الإلكترونية عبر الرابط التالي: https://portal.psut.edu.jo (https://regnew.psut.edu.jo/) ثم أختر قائمة \"تسجيل\" ثم أختر \"جدول المواد المسجلة\"",
+          "category": "التسجيل"
+        }
+      ]
+    },
+    {
+      "category_id": 2,
+      "category_name": "البحث العلمي",
+      "category_url": "https://www.psut.edu.jo/ar/faq/scientific-research",
+      "question_count": 10,
+      "questions": [
+        {
+          "question_id": 1,
+          "question": "ما معنى \"المجلة غير الموثوقة\"؟",
+          "answer": "يرجى زيارة الرابط: https://en.wikipedia.org/wiki/Predatory_open-access_publishing (https://en.wikipedia.org/wiki/Predatory_open-access_publishing)",
+          "category": "البحث العلمي"
+        },
+        {
+          "question_id": 2,
+          "question": "كيف يتم احتساب معامل تأثير المجلة؟",
+          "answer": "يحسب معامل تأثير المجلة في السنة س باستعمال المعادلة م ت = ( ر(س-2)+ر (س-1))/ ( ع(س-2)+ع (س-1)) حيث ر(ص) هو عدد مرات الرجوع لأبحاث المجلة في السنة ص و ع(ص) هو عدد الأبحاث المنشورة في المجلة في السنة ص. لتفاصيل إضافية بإمكانك زيارة الرابط: https://en.wikipedia.org/wiki/Impact_factor",
+          "category": "البحث العلمي"
+        },
+        {
+          "question_id": 3,
+          "question": "هل تتم فهرسة المجلة غير الموثوقة؟",
+          "answer": "الفقرة التالية مأخوذة من: https://www.researchgate.net/post/Scopus_vs_Clarivate_Analytics_journals (https://www.researchgate.net/post/Scopus_vs_Clarivate_Analytics_journals) ، من النادر أن تتم فهرسة المجلات غير الموثوقة بقوائم مثل Scopus ولكن يحدث ذلك. للاطلاع على بعض الأمثلة ، يمكن مراجعة ورقة العمل Do not feed the predators (أو راجع مقالة Do not feed the predators). وعلى هذا النحو ، فإنه من الشائع أكثر بالنسبة للمجلات الغير موثوقة أن تكذب بشأن فهرستها بهذه القوائم أو كما يقول كاي سمرسلي بأنها مفهرسة بعوامل فهرسة وهمية. (يرجى زيارة الرابط (https://beallslist.weebly.com/misleading-metrics.html) للاطلاع على بعض الأمثلة لهذه العوامل).",
+          "category": "البحث العلمي"
+        },
+        {
+          "question_id": 4,
+          "question": "هل من الممكن العثور على مجلة مدرجة في قاعدة بيانات Clarivate analytics ولكنها غير مدرجة في Scopus؟",
+          "answer": "نعم ممكن، فهذا يعتمد على كون هيئة تحرير المجلة قد قدمت طلبا لاحتوائها في قاعدة البيانات أم لا. وكمثال على ذلك، فإن مجلة جامعة طيبة للعلوم مدرجة في قاعدة Clarivate analytics وليست مدرجة في Scopus، وذلك حسب شهر كانون ثاني 2019.",
+          "category": "البحث العلمي"
+        },
+        {
+          "question_id": 5,
+          "question": "هل تدعم الجامعة رسوم النشر في مجلات معينة؟",
+          "answer": "نعم؛ وذلك شريطة كون المجلة متخصصة ومحكمة في صلب موضوع الباحث ومفهرسة في قائمة Science Citation index أو Social Citation index. كما يؤخذ بعين الاعتبار توفر الميزانية وتكرار النشر في نفس المجلة مع وجود بدائل أخرى.",
+          "category": "البحث العلمي"
+        },
+        {
+          "question_id": 6,
+          "question": "ما الفرق بين قاعدتي البيانات Scopus و Clarivate analytics؟",
+          "answer": "يرجى زيارة الموقع: https://harzing.com/popbook/ch16_2_1.htm (https://harzing.com/popbook/ch16_2_1.htm)",
+          "category": "البحث العلمي"
+        },
+        {
+          "question_id": 7,
+          "question": "هل تمنح الجامعة مكافآت لنشر البحث العلمي؟",
+          "answer": "نعم؛ وذلك حسب أسس يقرها مجلس العمداء. للاطلاع على الأسس المعمول بها حاليا، يرجى زيارة الرابط (https://www.psut.edu.jo/sites/default/files/%D8%A3%D8%B3%D8%B3%20%D9%85%D9%86%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%A7%D9%81%D8%A2%D8%AA%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9%20%D9%84%D8%A3%D8%B9%D8%B6%D8%A7%D8%A1%20%D9%87%D9%8A%D8%A6%D8%A9%20%D8%A7%D9%84%D8%AA%D8%AF%D8%B1%D9%8A%D8%B3%20%D9%88%D8%A7%D9%84%D8%B7%D9%84%D8%A8%D8%A9.docx)",
+          "category": "البحث العلمي"
+        },
+        {
+          "question_id": 8,
+          "question": "كيف أستطيع معرفة فيما إذا كانت المجلة مصنفة ضمن Clarivate analytics؟",
+          "answer": "يرجى زيارة الموقع: http://mjl.clarivate.com/ (http://mjl.clarivate.com/) حيث ستظهر نافذة البحث عن المجلة. إذا ظهرت المجلة، سيظهر خيار \"Coverage\"، حيث يبين تفصيل تصنيف المجلة.",
+          "category": "البحث العلمي"
+        },
+        {
+          "question_id": 9,
+          "question": "ما هو مؤشر H؟",
+          "answer": "قم بزيارة الرابط: https://guides.library.unisa.edu.au/c.php?g=169983&p=1119055 (https://guides.library.unisa.edu.au/c.php?g=169983&p=1119055) أو https://en.wikipedia.org/wiki/H-index (https://en.wikipedia.org/wiki/H-index)",
+          "category": "البحث العلمي"
+        },
+        {
+          "question_id": 10,
+          "question": "ما هو تصنيف \"Emerging source citation index\"؟",
+          "answer": "منقول من ويكيبيديا: The Emerging Sources Citation Index is a citation index (https://en.wikipedia.org/wiki/Citation_index) produced since 2015 by Thomson Reuters (https://en.wikipedia.org/wiki/Thomson_Reuters) , and now by Clarivate Analytics (https://en.wikipedia.org/wiki/Clarivate_Analytics) . According to the publisher, the index includes \"peer-reviewed publications of regional importance and in emerging scientific fields\". [1] (https://en.wikipedia.org/wiki/Emerging_Sources_Citation_Index#cite_note-1) It has been observed that among the databases produced by Clarivate Analytics, the Emerging Sources Citation Index is the easiest one to get into and that as a result it contains many predatory journals (https://en.wikipedia.org/wiki/Predatory_open_access_publishing) .",
+          "category": "البحث العلمي"
+        }
+      ]
+    },
+    {
+      "category_id": 3,
+      "category_name": "الدراسات العليا",
+      "category_url": "https://www.psut.edu.jo/ar/faq/graduate-studies",
+      "question_count": 3,
+      "questions": [
+        {
+          "question_id": 1,
+          "question": "ما هي الشروط الواجب توافرها في عضو الهيئة التدريسية لكي يتمكن من الإشراف على رسائل الماجستير والتدريس في برامج الماجستير؟",
+          "answer": "أن يكون قد نشر له أو قبل له للنشر بحثان على الأقل في مجلات محكمة متخصصة مقبول لغايات الترقية في آخر ثلاث سنوات للأستاذ المساعد، وتصبح خمس سنوات للأستاذ أو الأستاذ المشارك، كما يشترط أن يكون أحد البحثين منشوراً في مجلة عالمية. ويُقصد بالمجلة العالمية هنا، حسب تعريف هيئة الاعتماد في قرارها رقم 486/36/2016، المجلة المصنفة في Clarivate Analytics أو Scopus أو ERA للتخصصات العلمية، يضاف إليها قاعد البيانات البحثية EBSCO للتخصصات الإنسانية و Econlit لتخصصات الاقتصاد والعلوم الإدارية.",
+          "category": "الدراسات العليا"
+        },
+        {
+          "question_id": 2,
+          "question": "متى يستطيع الطالب التحويل من مسار الشامل إلى الرسالة؟",
+          "answer": "بعد اجتياز 12 ساعة من خطته الدراسية، ويتوجب عليه الحصول على رسالة توصية من عضو هيئة تدريس يرغب بالإشراف على رسالته. أما شروط المعدل، فتعتمد على طبيعة القسم والتخصص.",
+          "category": "الدراسات العليا"
+        },
+        {
+          "question_id": 3,
+          "question": "هل يوجد حد أدنى للمعدل التراكمي يؤهل الطالب للتقدم للامتحان الشامل؟",
+          "answer": "نعم؛ 75%.",
+          "category": "الدراسات العليا"
+        }
+      ]
+    },
+    {
+      "category_id": 4,
+      "category_name": "القبول",
+      "category_url": "https://www.psut.edu.jo/ar/faq/admission-2",
+      "question_count": 9,
+      "questions": [
+        {
+          "question_id": 1,
+          "question": "كيف أستطيع التقديم للجامعة؟",
+          "answer": "التقديم للجامعة online وتستطيع التقديم من خلال بوابة الطالب الإلكترونية إضغط هنا (https://portal.psut.edu.jo/NewApplic) .",
+          "category": "القبول"
+        },
+        {
+          "question_id": 2,
+          "question": "كيف يتم القبول، أنا معدلي 90%؟",
+          "answer": "إن قبولك يعتمد على ما يلي: نجاحك في امتحان القبول، واجتيازك المقابلة. المنافسة بين المعدلات المتقدمة في كل دفعة. عدد الشواغر المتوفرة في التخصص.",
+          "category": "القبول"
+        },
+        {
+          "question_id": 3,
+          "question": "كيف أعبء النموذج؟",
+          "answer": "تستطيع تعبئة النموذج باللغة العربية أو الانجليزية، ويجب عليك ملء كل الحقول الضرورية لكي يقبل طلبك.",
+          "category": "القبول"
+        },
+        {
+          "question_id": 4,
+          "question": "إذا لم أقبل في الدفعة التي قدمت لها، هل أحتفظ بحقي في الدفعة التي تليها؟",
+          "answer": "نعم سيكون اسمك في قائمة الانتظار في الدفعة التي تقدمت بها، وستدخل المنافسة مع الدفعة التي تليها.",
+          "category": "القبول"
+        },
+        {
+          "question_id": 5,
+          "question": "إذا أخطأت في المعلومات في طلب الالتحاق، هل يمكن لي أن أصححها؟",
+          "answer": "يجب أن تكون المعلومات صحيحة، وخلاف ذلك يلغى طلبك حتى لو صدرت الموافقة بقبولك، لذلك دقق المعلومات وتأكد منها قبل ارسالها، وتستطيع تصحيحها قبل ارسالها.",
+          "category": "القبول"
+        },
+        {
+          "question_id": 6,
+          "question": "ما هي الخطوة بعد تقديم الطلب؟",
+          "answer": "انتظر اتصال هاتفي أو e-mail يبلغك عن موعد امتحان القبول.",
+          "category": "القبول"
+        },
+        {
+          "question_id": 7,
+          "question": "هل امتحان القبول لجميع المتقدمين؟",
+          "answer": "نعم لجميع المتقدمين مهما كانت معدلاتهم.",
+          "category": "القبول"
+        },
+        {
+          "question_id": 8,
+          "question": "بعد امتحان القبول، أين أذهب؟",
+          "answer": "اذا اجتزت امتحان القبول بنجاح، سوف يحدد لك موعد مقابلة مع لجنة الكلية.",
+          "category": "القبول"
+        },
+        {
+          "question_id": 9,
+          "question": "أنا خارج الأردن، ولا أستطيع السفر، كيف أقدم امتحان القبول؟",
+          "answer": "تستطيع البقاء في مكانك، وسنقوم باجراء اللازم عن طريق برنامج Zoom ، حيث نحدد لك الزمان والتاريخ للامتحان والمقابلة.",
+          "category": "القبول"
+        }
+      ]
+    }
+  ]
+}
