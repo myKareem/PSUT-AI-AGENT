@@ -1,0 +1,1244 @@
+{
+  "metadata": {
+    "source_url": "https://www.psut.edu.jo/ar/staff/professor",
+    "scrape_date": "2026-02-01T15:04:44.674836",
+    "total_professors": 176,
+    "successful_scrapes": 176,
+    "failed_scrapes": 0,
+    "pages_processed": 9
+  },
+  "professors": [
+    {
+      "name": "الهيئة التدريسية - جامعة الأميرة سمية للتكنولوجيا",
+      "title": "",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor"
+    },
+    {
+      "name": "مجلس العمداء - جامعة الأميرة سمية للتكنولوجيا",
+      "title": "",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/deans-council"
+    },
+    {
+      "name": "مجلس الجامعة - جامعة الأميرة سمية للتكنولوجيا",
+      "title": "",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/university-council"
+    },
+    {
+      "name": "أ.د. وجدان أبو الهيجاء",
+      "title": "رئيس الجامعة أستاذ",
+      "email": "elhaija@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5000",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Prof-wejdan-Abu-elhaija"
+    },
+    {
+      "name": "أ.د أنس ابو طالب",
+      "title": "عميد كلية الملك الحسين لعلوم الحوسبة أستاذ",
+      "email": "a.abutaleb@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5304",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-anas-abu-taleb"
+    },
+    {
+      "name": "د. عدي الطويسي",
+      "title": "عميد كلية الملك طلال لتكنولوجيا الأعمال أستاذ مشارك",
+      "email": "a.tweissi@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5401",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-adiy-tweissi"
+    },
+    {
+      "name": "أ.د. أسامه بدارنه",
+      "title": "نائب الرئيس للشؤون الإدارية أستاذ",
+      "email": "o.badarneh@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5701",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-osamah-sami-mohd-badarneh"
+    },
+    {
+      "name": "د. رامي الزبدية",
+      "title": "نائب العميد ومنسق اعتماد AACSB أستاذ مساعد",
+      "email": "r.zebdieh@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5439",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-rami-alzebdieh"
+    },
+    {
+      "name": "د. اسامة أبو شرخ",
+      "title": "عميد كلية الملك عبد الله الثاني للهندسة أستاذ مشارك",
+      "email": "osama@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext. 5501",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-osama-abu-sharkh"
+    },
+    {
+      "name": "د. أحمد التميمي",
+      "title": "نائب العميد أستاذ مشارك",
+      "email": "a.altamimi@psut.edu.jo",
+      "phone": "+96265359949 Ex:",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ahmad-altamimi"
+    },
+    {
+      "name": "د. بلال حمود",
+      "title": "مساعد العميد أستاذ مساعد",
+      "email": "b.hamoud@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5433",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-bilal-ibrahim-faiq-hamoud"
+    },
+    {
+      "name": "د. محمد الصمادي",
+      "title": "رئيس قسم إدارة الأعمال أستاذ مشارك",
+      "email": "m.sumadi@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5423",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-mohammad-sumadi"
+    },
+    {
+      "name": "د. طارق بدير",
+      "title": "مساعد العميد أستاذ مساعد",
+      "email": "t.bdair@psut.edu.jo",
+      "phone": "+96265359949 Ex:",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/mr-tariq-bdair"
+    },
+    {
+      "name": "أ.د. أمجد الموسى",
+      "title": "عميد كلية الملك عبد الله الأول للدراسات العليا والبحث العلمي أستاذ",
+      "email": "a.almousa@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext. 5548",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-amjed-al-mousa"
+    },
+    {
+      "name": "د. فندي عميش",
+      "title": "رئيس قسم التسويق الإلكتروني والتواصل الاجتماعيأستاذ مساعد",
+      "email": "f.omeish@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5409/5410",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-fandi-yousef-fandi-omeish"
+    },
+    {
+      "name": "د. عنان سروجي",
+      "title": "رئيس قسم المحاسبة منسق برنامج ماجستير تكنولوجيا المالية والمحاسبة التحليلية أستاذ مشارك",
+      "email": "a.srouji@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5405/5406",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-anan-srouji"
+    },
+    {
+      "name": "أ.د. فادي شحروري",
+      "title": "مساعد عميد كلية الملك عبد الله الثاني للهندسة أستاذ",
+      "email": "fadi@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5504 / 5522",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-fadi-riad-shahroury"
+    },
+    {
+      "name": "أ.د. عبدالله قصف",
+      "title": "رئيس قسم هندسة البرمجيات أستاذ دكتور",
+      "email": "a.qusef@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5363",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Prof-abdallah-darweesh-qusef"
+    },
+    {
+      "name": "د. شيرين جاد الله",
+      "title": "رئيس وحدة تنسيق المساقات الخدمية أستاذ مساعد",
+      "email": "s.jadallah@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5407/5408",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-shereen-harbi-mohammad-jadallah"
+    },
+    {
+      "name": "د. أوس كنعان",
+      "title": "رئيس قسم هندسة الحاسوبأستاذ مساعد",
+      "email": "a.kanan@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5551",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-awos-kanan"
+    },
+    {
+      "name": "أ.د. أيمن فزع",
+      "title": "نائب عميد كلية الملك عبد الله الثاني للهندسةأستاذ",
+      "email": "a.faza@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5531",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ayman-faza"
+    },
+    {
+      "name": "د. داليا العيسوي",
+      "title": "رئيس قسم تكنولوجيا معلومات الأعمال أستاذ مساعد",
+      "email": "d.aleisawi@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5463",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-dalia-dawud-mohammad-al-eisawi"
+    },
+    {
+      "name": "د. سارة تدمري",
+      "title": "رئيس قسم علم الرسم الحاسوبيأستاذ مشارك",
+      "email": "S.Tedmori@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5306",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-sara-tedmori"
+    },
+    {
+      "name": "أ. د. محمد العزه",
+      "title": "رئيس قسم علم البيانات أستاذ",
+      "email": "m.azzeh@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5344",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-mohammad-azzeh"
+    },
+    {
+      "name": "أ.د. محمود دار عاصي",
+      "title": "رئيس قسم العلوم الأساسية أستاذ",
+      "email": "m.assi@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5509 /5510",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-mahmoud-darassi"
+    },
+    {
+      "name": "أ.د. بكر السرحان",
+      "title": "أستاذ دكتور",
+      "email": "alserhan@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5425",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-baker-ahmad-abdullah-al-serhan"
+    },
+    {
+      "name": "أ.د. شفيق حداد",
+      "title": "أستاذ دكتور",
+      "email": "s.haddad@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5453",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-shafig-al-haddad"
+    },
+    {
+      "name": "د. لؤي الطراونه",
+      "title": "رئيس قسم هندسة الاتصالاتأستاذ مشارك",
+      "email": "l.altarawneh@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5507 /5508",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-luae-abdul-fatah-barakat-al-tarawneh"
+    },
+    {
+      "name": "أ.د ستيفن روزنباوم",
+      "title": "أستاذ متعاون",
+      "email": "Stephen.rosenbaum@faculty.hult.edu",
+      "phone": "+96265959949 Ex: 5403/5404",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-stephen-rosenbaum"
+    },
+    {
+      "name": "أ.د. علي الحاج",
+      "title": "أستاذ",
+      "email": "ali@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5541",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-ali-al-haj"
+    },
+    {
+      "name": "د. مناف غرايبه",
+      "title": "رئيس قسم علم الحاسوبأستاذ مساعد",
+      "email": "m.gharaibeh@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5359",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-manaf-gharaibeh"
+    },
+    {
+      "name": "أ.د. محمد الخصاونة",
+      "title": "أستاذ دكتور",
+      "email": "m.alkhasaawneh@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5409/5410",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-mohammad-hamdi-mahmoud-al-khasawneh"
+    },
+    {
+      "name": "أ. د. عرفات عوجان",
+      "title": "أستاذ",
+      "email": "awajan@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5300",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-arafat-awajan"
+    },
+    {
+      "name": "أ.د. عمر العتوم",
+      "title": "أستاذ",
+      "email": "ohasan@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5558",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-omar-mousa-hasan-bani-ahmad"
+    },
+    {
+      "name": "أ.د. محمود القضاة",
+      "title": "أستاذ دكتور",
+      "email": "mq@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5442",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-mahmoud-qudah"
+    },
+    {
+      "name": "أ.د. أحمد حياصات",
+      "title": "أستاذ",
+      "email": "a.hiasat@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5542",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-ahmad-hiasat"
+    },
+    {
+      "name": "أ.د. وليد سلامة",
+      "title": "أستاذ",
+      "email": "walid@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5326",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-walid-salameh"
+    },
+    {
+      "name": "أ.د. صالح أبو السعود",
+      "title": "أستاذ",
+      "email": "abu-soud@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5360",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-saleh-abu-soud"
+    },
+    {
+      "name": "أ.د. عبدالله الزعبي",
+      "title": "أستاذ",
+      "email": "zoubi@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5560",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-abdallah-yusuf-mefleh-al-zoubi"
+    },
+    {
+      "name": "أ. د. أشرف أحمد",
+      "title": "أستاذ",
+      "email": "a.ahmad@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5301",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ashraf-ahmad"
+    },
+    {
+      "name": "أ.د جعفر الصرايره",
+      "title": "أستاذ",
+      "email": "j.saraireh@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5023",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-jaafer-al-saraireh"
+    },
+    {
+      "name": "أ.د. محمد كساسبة",
+      "title": "أستاذ مساعد الرئيس",
+      "email": "m.alkasassbeh@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5346",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-mouhammd-alkasassbeh"
+    },
+    {
+      "name": "أ.د. أشرف طاهات",
+      "title": "أستاذ",
+      "email": "tahat@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5561",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-ashraf-tahat"
+    },
+    {
+      "name": "أ.د. منى المولا",
+      "title": "أستاذ دكتور",
+      "email": "m.almwalla@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5405/5406",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-mona-mamdouh-omar-almwalla"
+    },
+    {
+      "name": "أ.د. عبد الغني البعلي",
+      "title": "أستاذ دكتور",
+      "email": "a.albaa@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5445",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-abdul-ghani-albaali"
+    },
+    {
+      "name": "أ.د. سيرينا ساندري",
+      "title": "أستاذ دكتور",
+      "email": "s.sandri@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5403/5404",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/serena-sandri"
+    },
+    {
+      "name": "أ. د. محمد النبهان",
+      "title": "أستاذ",
+      "email": "m.alnabhan@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5323",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-mohammad-al-nabhan"
+    },
+    {
+      "name": "أ.د. محمد صبابحه",
+      "title": "أستاذ",
+      "email": "Sababheh@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5556",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-mohammad-sababheh"
+    },
+    {
+      "name": "د. رائد وشاح",
+      "title": "أستاذ مشارك",
+      "email": "r.wishah@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5422",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-raed-hussein-ahmad-wishah"
+    },
+    {
+      "name": "أ.د. أيمن ياسين",
+      "title": "أستاذ دكتور",
+      "email": "a.yasin@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5448",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ayman-yasin"
+    },
+    {
+      "name": "د. نادية صويص",
+      "title": "أستاذ مشارك",
+      "email": "n.sweis@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5432",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-nadia-jalil-ayoub-sweis"
+    },
+    {
+      "name": "أ.د. بلال صبابحه",
+      "title": "أستاذ",
+      "email": "b.sababha@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5500",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-belal-h-sababha"
+    },
+    {
+      "name": "أ.د. خلدون الطراونه",
+      "title": "أستاذ",
+      "email": "khaldoun@psut.edu.jo / library@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5101",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-khaldoun-tarawneh"
+    },
+    {
+      "name": "أ.د. عماد الدين عبدالله",
+      "title": "أستاذ",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Prof-Emad-Eddien-Abdallah"
+    },
+    {
+      "name": "أ.د. مصطفى الفيومي",
+      "title": "أستاذ",
+      "email": "m.alfayoumi@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5312",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Prof-mustafa-al-fayoumi"
+    },
+    {
+      "name": "أ.د. فداء محمد",
+      "title": "أستاذ",
+      "email": "f.mohammad@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5573",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-fida-mohd"
+    },
+    {
+      "name": "د. عبد الرحيم ابو البصل",
+      "title": "أستاذ مشارك",
+      "email": "a.abualbasal@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5411/5412",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-abdelraheem-abualbasal"
+    },
+    {
+      "name": "Prof. Vernon Jay Richardson",
+      "title": "أستاذ دكتور",
+      "email": "VRichardson@walton.uark.edu",
+      "phone": "+96265959949 Ex: 5405/5406",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-vernon-jay-richardson"
+    },
+    {
+      "name": "د. مهند العربيات",
+      "title": "استاذ مساعد",
+      "email": "m.arabiat@psut.edu.jo",
+      "phone": "+96265959949 Ex:5409/5410",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-mohanned-m-al-arabiat"
+    },
+    {
+      "name": "د. عمار عوده",
+      "title": "مدير مركز الاستشارات و التدريب أستاذ مشارك",
+      "email": "a.odeh@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5350",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ammar-odeh"
+    },
+    {
+      "name": "أ.د. أحمد التوايهه",
+      "title": "أستاذ",
+      "email": "atawayha@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5523",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ahmad-a-tawayha"
+    },
+    {
+      "name": "أ.د. مأمون أحمد",
+      "title": "مدير مكتبة الحسن أستاذ",
+      "email": "m.ahmed@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5579",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Prof-mamoon-ali-ahmed-altheeb"
+    },
+    {
+      "name": "أ.د. سعود الذنيبات",
+      "title": "أستاذ",
+      "email": "s.althunibat@psut.edu.jo",
+      "phone": "(06) 535 9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-saud-althunibat"
+    },
+    {
+      "name": "أ. د. ميشيل سويدان",
+      "title": "أستاذ دكتور",
+      "email": "m.suwaidan@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5405/5406",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/prof-mishiel-suwaidan"
+    },
+    {
+      "name": "د. محمد الزعبي",
+      "title": "أستاذ مشارك",
+      "email": "mzoube@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5339",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-mohammed-a-al-zoube"
+    },
+    {
+      "name": "د. نائلة الماضي",
+      "title": "أستاذ مشارك",
+      "email": "n.madi@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5337",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-nailah-shukri-al-madi"
+    },
+    {
+      "name": "د. ميساء خضر",
+      "title": "أستاذ مشارك",
+      "email": "m.khader@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5569",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-maisa-mohammad-saleh-rafiq-khader"
+    },
+    {
+      "name": "د. بهاء الخصاونه",
+      "title": "أستاذ مشارك",
+      "email": "baha@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5354",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-baha-a-khasawneh"
+    },
+    {
+      "name": "د. إبراهيم البلوي",
+      "title": "أستاذ مشارك",
+      "email": "i.albluwi@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5325",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ibrahim-albluwi"
+    },
+    {
+      "name": "د. مجد بطارسة",
+      "title": "أستاذ مشارك",
+      "email": "m.batarseh@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5549",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-majd-ghazi-yousef-batarseh"
+    },
+    {
+      "name": "د. عبد الهادي رمضان",
+      "title": "أستاذ مشارك",
+      "email": "a.ramadan@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5450",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-abdulhadi-hamid-abdulhadi-ramadan"
+    },
+    {
+      "name": "د. جورج سمور",
+      "title": "أستاذ مشارك",
+      "email": "george.sammour@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5400/5401",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-george-sammour"
+    },
+    {
+      "name": "د. محمد الروسان",
+      "title": "أستاذ مشارك",
+      "email": "m.alrousan@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5457",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-mohammad-kasem-alrousan"
+    },
+    {
+      "name": "د. عمار الحسن",
+      "title": "أستاذ مشارك",
+      "email": "a.elhassan@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5322",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ammar-elhassan"
+    },
+    {
+      "name": "د. يحيى الخطاطبه",
+      "title": "أستاذ مشارك",
+      "email": "y.alkhatatbeh@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5580",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-yahya-mahmoud-obeidallah-al-khatatbeh"
+    },
+    {
+      "name": "د. خليف الخوالدة",
+      "title": "أستاذ مشارك",
+      "email": "k.alkhawaldeh@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5457",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-khleef-ahmed-eid-alkhawaldeh"
+    },
+    {
+      "name": "د. رامي وحشة",
+      "title": "أستاذ مشارك",
+      "email": "R.wahsheh@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5564",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-rami-wahsheh"
+    },
+    {
+      "name": "د. أسامة الحاج حسن",
+      "title": "أستاذ مشارك",
+      "email": "o.alhajhassan@psut.edu.jo",
+      "phone": "+96265359949 Ex:",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Dr-Osama-Al-Haj-Hassan"
+    },
+    {
+      "name": "د. عمرو مدادحة",
+      "title": "أستاذ مشارك",
+      "email": "A.almadadha@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5470",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-amro-al-madadha"
+    },
+    {
+      "name": "أ.د. سامية بشناق",
+      "title": "أستاذ",
+      "email": "s.bushnaq@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5571",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-samia-saleem-ahmad-bushnaq"
+    },
+    {
+      "name": "د. محمد الشبول",
+      "title": "أستاذ مشارك",
+      "email": "m.shboul@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5454",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-mohd-anwer-radwan-al-shboul"
+    },
+    {
+      "name": "د. هاني العبداللات",
+      "title": "أستاذ مساعد",
+      "email": "h.abdallat@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5403/5404",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-hani-al-abdallat"
+    },
+    {
+      "name": "د. سليمان محمد",
+      "title": "منسق برنامج الماجستير التنفيذي في إدارة الأعمال أستاذ مشارك",
+      "email": "s.mohmmad@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5438",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-suleiman-jamal-mohammad"
+    },
+    {
+      "name": "د. فادي قطيشات",
+      "title": "أستاذ مشارك",
+      "email": "f.qutaishat@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5469",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-fadi-taher-odeh-qutaishat"
+    },
+    {
+      "name": "د. محمد العمري",
+      "title": "مدير مركز التعلم الإلكتروني أستاذ مشارك",
+      "email": "m.alomari@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5055",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-mohammad-al-omari"
+    },
+    {
+      "name": "أ.د. رامي سالم",
+      "title": "أستاذ دكتور",
+      "email": "ramijas@psut.edu.jo",
+      "phone": "(+962) 65359949 Ext. 5650",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-rami-salem"
+    },
+    {
+      "name": "د. مهند عتمه",
+      "title": "أستاذ مشارك",
+      "email": "m.atmeh@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5405/5406",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-muhannad-atmeh"
+    },
+    {
+      "name": "د. هيثم العاني",
+      "title": "أستاذ مشارك",
+      "email": "h.ani@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5553",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-haitham-ameen-noman-al-ani"
+    },
+    {
+      "name": "د. هاني أحمد",
+      "title": "أستاذ مشارك",
+      "email": "h.ahmad@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext. 5505 / 5536",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-hani-ahmad"
+    },
+    {
+      "name": "د. قصي سالم",
+      "title": "أستاذ مشارك",
+      "email": "q.salem@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5537",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-qusay-salem"
+    },
+    {
+      "name": "د. رجاء القضاة",
+      "title": "أستاذ مشارك",
+      "email": "r.alqudah@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext. 5557",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-rajaa-khaled-hasan-alqudah"
+    },
+    {
+      "name": "د. رأفت الجراح",
+      "title": "أستاذ مشارك",
+      "email": "r.aljarrah@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5534",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-rafat-aljarrah"
+    },
+    {
+      "name": "د.محمد الجعافرة",
+      "title": "أستاذ مساعد",
+      "email": "info@psut.edu.jo",
+      "phone": "(06) 535 9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/drmohammad-aljaafreh"
+    },
+    {
+      "name": "د. عبير جرادات",
+      "title": "أستاذ مساعد",
+      "email": "a.jaradat@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5581",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-abeer-jaradat"
+    },
+    {
+      "name": "د.فارس الفاعوري",
+      "title": "أستاذ مساعد",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/eng-fares-el-faouri"
+    },
+    {
+      "name": "د. عبد الله أبو ماضي",
+      "title": "أستاذ مساعد",
+      "email": "A.Abu-Madi@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5411/5412",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-abdallah-younis-madi-abu-madi"
+    },
+    {
+      "name": "د. نجيب الشريده",
+      "title": "أستاذ مشارك",
+      "email": "n.shrydeh@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5437",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-najib-shrydeh"
+    },
+    {
+      "name": "د. عمار عبده",
+      "title": "أستاذ مساعد",
+      "email": "a.abdo@psut.edu.jo",
+      "phone": "(06) 535 9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ammar-abdo"
+    },
+    {
+      "name": "د. ابراهيم أبو شميس",
+      "title": "رئيس قسم الهندسة الكهربائيةأستاذ مساعد",
+      "email": "I.abuishmais@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5538",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/ibrahim-abuishmais"
+    },
+    {
+      "name": "د.محمد جمال عبد الرحمن",
+      "title": "أستاذ مشارك",
+      "email": "m.abdelrahman@psut.edu.jo",
+      "phone": "+96265359949 Ex:",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-mohammad-abdel-rahman"
+    },
+    {
+      "name": "د. رامي إبراهيم",
+      "title": "أستاذ مساعد",
+      "email": "rami.ibrahim@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5411/5412",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-rami-faeq-ibrahim-ibrahim"
+    },
+    {
+      "name": "د. حمزة جابر",
+      "title": "أستاذ مساعد",
+      "email": "h.jaber@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-hamzeh-jaber"
+    },
+    {
+      "name": "د. عبدالله هياجنة",
+      "title": "أستاذ مساعد",
+      "email": "a.hayajneh@psut.edu.jo",
+      "phone": "(06) 535 9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-abdullah-hayajneh"
+    },
+    {
+      "name": "د. نور دامر",
+      "title": "منسق برنامج ماجستير تحليل الأعمال أستاذ مساعد",
+      "email": "n.damer@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5465",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-nour-damer"
+    },
+    {
+      "name": "د. يزن الرواشدة",
+      "title": "أستاذ مساعد",
+      "email": "y.alrawashdeh@psut.edu.jo",
+      "phone": "(06) 535 9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-yazan-al-rawashdeh"
+    },
+    {
+      "name": "د. هبه عبدالنبي",
+      "title": "أستاذ مساعد",
+      "email": "h.abdelnabi@psut.edu.jo",
+      "phone": "(06) 535 9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-heba-abdel-nabi"
+    },
+    {
+      "name": "د. محمد عبد المجيد",
+      "title": "أستاذ مشارك",
+      "email": "m.abdelmajeed@psut.edu.jo",
+      "phone": "(06) 535 9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-mohammad-abdel-majeed"
+    },
+    {
+      "name": "د. فراس الغانم",
+      "title": "أستاذ مشارك",
+      "email": "f.ghanim@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5301",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-firas-alghanim"
+    },
+    {
+      "name": "د. أحمد النسور",
+      "title": "مدير- الموارد البشرية أستاذ مساعد",
+      "email": "a.alnsour@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5403/5404",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ahmad-suliman-abdallah-alnsour"
+    },
+    {
+      "name": "د.زيد حيمور",
+      "title": "محاضر متفرغ",
+      "email": "z.haymoor@psut.edu.jo",
+      "phone": "(06) 535 9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-zaid-haymoor"
+    },
+    {
+      "name": "د. أحمد الطراونة",
+      "title": "أستاذ مساعد",
+      "email": "a.tarawneh@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5446",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ahmad-mohammad-hassan-al-tarawneh"
+    },
+    {
+      "name": "د. مهنا مهنا",
+      "title": "عميد القبول والتسجيل أستاذ مشارك",
+      "email": "M.Muhanna@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5601",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-muhanna-muhanna"
+    },
+    {
+      "name": "د. حازم قطوس",
+      "title": "مدير مركز ضمان الجودة والإعتماد أستاذ مشارك",
+      "email": "h.qattous@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5308",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-hazem-qattous"
+    },
+    {
+      "name": "د. أسيل ابو عجمية",
+      "title": "منسق برنامج ماجستير ريادة الأعمال أستاذ مساعد",
+      "email": "a.abuajamieh@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5429",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-aseel-khalil-ahmad-abu-ajamieh"
+    },
+    {
+      "name": "د. رمزي ردايدة",
+      "title": "عميد شؤون الطلبة أستاذ مساعد",
+      "email": "r.radeideh@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5651",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ramzy-mahmoud-hamed-radaideh"
+    },
+    {
+      "name": "د. لؤي عناية",
+      "title": "أستاذ مساعد",
+      "email": "l.anaya@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5468",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-luay-anaya"
+    },
+    {
+      "name": "د. أحمد الزغول",
+      "title": "أستاذ مشارك",
+      "email": "a.alzghoul@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5348",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ahmad-alzghoul"
+    },
+    {
+      "name": "د. عبدالله عارف",
+      "title": "أستاذ مشارك",
+      "email": "a.aref@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5345",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-abdullah-aref"
+    },
+    {
+      "name": "د. وائل العطيوي",
+      "title": "أستاذ مساعد",
+      "email": "w.etaiwi@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5411/5412",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-wael-etaiwi"
+    },
+    {
+      "name": "د. بشرى الحجاوي",
+      "title": "أستاذ مشارك",
+      "email": "b.alhijawi@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5351",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-bushra-alhijawi"
+    },
+    {
+      "name": "د. رأفت حماد",
+      "title": "أستاذ مشارك",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Rafat-hammad"
+    },
+    {
+      "name": "د. محمد أبو حشيش",
+      "title": "أستاذ مشارك",
+      "email": "m.Abuhashesh@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5455",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-mohammd-abuhashesh"
+    },
+    {
+      "name": "م. فاديا العيسى",
+      "title": "محاضر",
+      "email": "f.elissa@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5570",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/eng-fadia-el-issa"
+    },
+    {
+      "name": "د.معتز الهامي",
+      "title": "أستاذ مشارك",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-motaz-al-hami"
+    },
+    {
+      "name": "رجاء القديرات",
+      "title": "محاضر",
+      "email": "r.qderat@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5577",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/mrs-rajaa-fathi-attiyh-al-qderat"
+    },
+    {
+      "name": "د. أسامة عبد الحي",
+      "title": "أستاذ مساعد",
+      "email": "o.abdelhay@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5335",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-osama-abdel-fattah-mohammad-abdel-hay"
+    },
+    {
+      "name": "د. محمد عبابنه",
+      "title": "أستاذ مساعد",
+      "email": "m.ababneh@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5342",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-mohammad-ababneh"
+    },
+    {
+      "name": "د. ايناس ابو لبدة",
+      "title": "أستاذ مساعد",
+      "email": "e.abulibdeh@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-enas-abulibdeh"
+    },
+    {
+      "name": "د. محمد أبو صنوبر",
+      "title": "أستاذ مساعد",
+      "email": "m.abusnober@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5349",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-mohammad-abu-snober"
+    },
+    {
+      "name": "د. عُلا الحديد",
+      "title": "منسق هدف التنمية المستدامة 17SDG -شراكات الهدف أستاذ مساعد",
+      "email": "o.alhadeed@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5403/5404",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ola-alhadeed"
+    },
+    {
+      "name": "د. عبدالله الرفاعي",
+      "title": "أستاذ مساعد",
+      "email": "a.alrefai@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5331",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-abdullah-al-refai"
+    },
+    {
+      "name": "د. معاوية الضلاعين",
+      "title": "أستاذ مساعد",
+      "email": "m.aldalaien@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5356",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-muawya-al-dalaien"
+    },
+    {
+      "name": "د. سرين عطياني",
+      "title": "أستاذ مساعد",
+      "email": "s.atiani@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5310",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-serin-atiani"
+    },
+    {
+      "name": "عمر زايد",
+      "title": "مدرس",
+      "email": "o.zayed@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5567",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/mr-omar-deeb-zayed-zayed"
+    },
+    {
+      "name": "د. عمار قسايمة",
+      "title": "منسق برنامج ماجستير التسويق الإلكتروني والتواصل الاجتماعي أستاذ مساعد",
+      "email": "a.qasaimeh@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5409/5410",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ammar-qasaimeh"
+    },
+    {
+      "name": "م. حازم مرار",
+      "title": "محاضر",
+      "email": "h.marar@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext. 5530",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/eng-hazem-marar"
+    },
+    {
+      "name": "د. رغده حريز",
+      "title": "أستاذ مساعد",
+      "email": "R.hraiz@psut.edu.jo",
+      "phone": "+96265359949 Ex:",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-ragdah-hraiz"
+    },
+    {
+      "name": "عمر ياسين",
+      "title": "محاضر",
+      "email": "o.yasin@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5582",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/mr-omar-yasin"
+    },
+    {
+      "name": "د. رشا الغزاوي",
+      "title": "أستاذ مشارك",
+      "email": "r.alghazzawi@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5405/5406",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-rasha-alghazzawi"
+    },
+    {
+      "name": "طارق الضراغمة",
+      "title": "مدرس",
+      "email": "t.aldaraghmeh@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5576",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/mr-tariq-mohammad-fayeez-aldaraghmeh"
+    },
+    {
+      "name": "م. فرح أبو دبسة",
+      "title": "محاضر",
+      "email": "f.abudabaseh@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5563",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/eng-farah-abudabaseh"
+    },
+    {
+      "name": "تغريد قعوار",
+      "title": "محاضر",
+      "email": "tagreed@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5443",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/mrs-tagreed-issa-najeeb-kawar"
+    },
+    {
+      "name": "يوسف أبو حور",
+      "title": "محاضر",
+      "email": "y.abuhour@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5543",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/yousef-abu-hour"
+    },
+    {
+      "name": "م. نور الكتاوي",
+      "title": "محاضر",
+      "email": "n.kattawi@psut.edu.jo",
+      "phone": "(06) 535 9949 Ext.5524",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/eng-nour-kattawi"
+    },
+    {
+      "name": "ليلى رواشدة",
+      "title": "محاضر",
+      "email": "l.rawashdeh@psut.edu.jo, study.abroad@psut.edu.jo",
+      "phone": "+96265959949 Ext# 5430, Cellular 962775624503",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/ms-leila-elina-ahmed-rawashdeh"
+    },
+    {
+      "name": "د. ضياء قاسم",
+      "title": "استاذ مساعد",
+      "email": "d.qasim@psut.edu.jo",
+      "phone": "+96265959949 Ex:5409/5410",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dhia-mufeed-mohd-qasim"
+    },
+    {
+      "name": "د.سيف الدين قواسمة",
+      "title": "أستاذ مساعد",
+      "email": "s.qawasmeh@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5411/5412",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-saif-aldean-qawasmeh"
+    },
+    {
+      "name": "طارق عبد ربه",
+      "title": "محاضر",
+      "email": "t.abdrabbo@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5451",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/mr-tariq-mohamad-zakria-abdrabbo"
+    },
+    {
+      "name": "أسماء زنيمات",
+      "title": "محاضر",
+      "email": "a.znaimat@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5435",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/asma-al-znaimat"
+    },
+    {
+      "name": "د. ياسر صالح",
+      "title": "أستاذ مساعد",
+      "email": "y.saleh@psut.edu.jo",
+      "phone": "+96265359949 Ex:",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-yaser-saleh"
+    },
+    {
+      "name": "شهيناز عيسى",
+      "title": "محاضر",
+      "email": "s.issa@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5449",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/mrs-shahenaz-mousa-mahmoud-rushdy-issa"
+    },
+    {
+      "name": "رند بدران",
+      "title": "محاضر",
+      "email": "r.badran@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5409/5410",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-rand-badran"
+    },
+    {
+      "name": "د. سامر الكبابجي",
+      "title": "أستاذ مساعد",
+      "email": "s.elkababji@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-samer-elkababji"
+    },
+    {
+      "name": "بي هيو لين",
+      "title": "محاضر",
+      "email": "p.lin@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5408/5407",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/pei-hua-lin"
+    },
+    {
+      "name": "د. سامر صوالحه",
+      "title": "أستاذ مساعد",
+      "email": "s.sawalha@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-samer-sawalha"
+    },
+    {
+      "name": "د.عمر القواسمة",
+      "title": "أستاذ مساعد",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Dr-Omar-Alqwasmeh"
+    },
+    {
+      "name": "غاندي ربابعه",
+      "title": "محاضر",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/ghandi-rababa"
+    },
+    {
+      "name": "د.الحاكم مسعود",
+      "title": "أستاذ مساعد",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Dr-Alhakem-Masoud"
+    },
+    {
+      "name": "دارين الشلعوط",
+      "title": "محاضر",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dareen-al-shalaout"
+    },
+    {
+      "name": "د. سحر العيد",
+      "title": "محاضر",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-sahar-aleid"
+    },
+    {
+      "name": "أ. نرمين الحياري",
+      "title": "محاضر",
+      "email": "n.alhyari@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5357",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/narmeen-alhyari"
+    },
+    {
+      "name": "د.زينة قاسم",
+      "title": "أستاذ مشارك",
+      "email": "z.qasem@psut.edu.jo",
+      "phone": "+96265959949 Ex:5409/5410",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-zainah-adnan-hasan-qasem"
+    },
+    {
+      "name": "د. عامر بدران",
+      "title": "محاضر",
+      "email": "a.badran@psut.edu.jo",
+      "phone": "+96265959949 Ex:5409/5410",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-amer-majdi-abdalgani-badran"
+    },
+    {
+      "name": "أ. روزانا مرار",
+      "title": "محاضر",
+      "email": "R.Marar@psut.edu.jo",
+      "phone": "+96265359949 Ex: 5355",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/miss-rosana-marar"
+    },
+    {
+      "name": "د. ندى غش",
+      "title": "محاضر",
+      "email": "n.ghesh@psut.edu.jo",
+      "phone": "+96265959949 Ex:5409/5410",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-nada-ghesh"
+    },
+    {
+      "name": "م. غيداء الحياصات",
+      "title": "محاضر",
+      "email": "g.alhyasat@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5411/5412",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/eng-ghayda-al-hyasat"
+    },
+    {
+      "name": "د. سالم الحبابسة",
+      "title": "أستاذ مشارك",
+      "email": "s.alhababsah@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5405/5406",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/dr-salem-nahar-mitlak-alhababsah"
+    },
+    {
+      "name": "السيد طارق فرغل",
+      "title": "محاضر",
+      "email": "info@psut.edu.jo",
+      "phone": "+96265959949 Ex:5408/5409",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/mr-tariq-mohammed-ali-farghal"
+    },
+    {
+      "name": "فرح الشريدة",
+      "title": "محاضر",
+      "email": "f.alshraiedeh@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5409/5410",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/farah-jaber-mahmoud-alshraiedeh"
+    },
+    {
+      "name": "ليلى ملص",
+      "title": "محاضر",
+      "email": "L.malas@psut.edu.jo",
+      "phone": "+96265959949 Ex: 5411/5412",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/layla-issam-mohammad-malas"
+    },
+    {
+      "name": "أ.علاء الترزي",
+      "title": "محاضر",
+      "email": "a.altarazi@psut.edu.jo",
+      "phone": "+96265359949 Ex:",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Mr-Alaa-Altarazi"
+    },
+    {
+      "name": "أ. أحمد بني عامر",
+      "title": "محاضر",
+      "email": "a.baniamer@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Mr-Ahmad-Bani-Amer"
+    },
+    {
+      "name": "أ.المها محمد أبو زريق",
+      "title": "محاضر",
+      "email": "m.abuzuraiq@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Ms-Al-Maha-Mohammed-Abu-Zuraiq"
+    },
+    {
+      "name": "أ.وسن المعايطة",
+      "title": "محاضر",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Ms-Wasan-Almaaitah"
+    },
+    {
+      "name": "م. آيات الضروس",
+      "title": "محاضر",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Ms-Ayat-Droos"
+    },
+    {
+      "name": "أ.أميمة إسماعيل",
+      "title": "محاضر",
+      "email": "info@psut.edu.jo",
+      "phone": "+962-6-535-9949",
+      "profile_url": "https://www.psut.edu.jo/ar/staff/professor/Ms-Omaima-Ismail"
+    }
+  ]
+}
