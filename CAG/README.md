@@ -5,4 +5,4 @@ paper: https://arxiv.org/abs/2412.15605
 
 repo: https://github.com/hhhuang/CAG
 
-Gemini chat for refrence: https://gemini.google.com/share/621bbf7e4aec
+Gemini chat for reference: https://gemini.google.com/share/621bbf7e4aec
