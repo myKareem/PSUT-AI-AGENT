@@ -1,4 +1,4 @@
-Here ill atempt to implement the chatbot using Cache-Augmented Generation (CAG), source is this paper and rpeo: 
+Here ill atempt to implement the chatbot using Cache-Augmented Generation (CAG), source is this paper and repo: 
 
 
 paper: https://arxiv.org/abs/2412.15605
