@@ -1,5 +1,4 @@
 import os
-import json
 import ollama
 from qdrant_client import QdrantClient
 from sentence_transformers import SentenceTransformer
@@ -7,7 +6,7 @@ from dhakira.cache.semantic import SemanticCache
 from dhakira.config import CacheConfig
 
 # Configuration
-DB_PATH = "C:\\Users\\Kareem\\Desktop\\GP\\local_qdrant_db"
+DB_PATH = "C:\\Users\\20220458\\Desktop\\GP\\PSUT-AI-AGENT\\local_qdrant_db"
 MODEL_NAME = "Omartificial-Intelligence-Space/Arabic-Triplet-Matryoshka-V2"
 LLM_MODEL = "qwen3:8b" # Ensure this matches what you ran in Ollama
 
@@ -15,7 +14,7 @@ LLM_MODEL = "qwen3:8b" # Ensure this matches what you ran in Ollama
 # This will save ~50% of LLM calls by caching identical or highly similar Arabic queries
 cache = SemanticCache(CacheConfig(
     enabled=True,
-    max_size=1000,
+    max_size=32000,
     ttl_seconds=86400 # Cache for 24 hours
 ))
 
@@ -32,8 +31,8 @@ def load_cag_context():
     """
     cag_text = "=== UNIVERSITY STAFF DIRECTORY & FAQS ===\n"
     
-    # 1. Load Staff Directory (Assuming it's a raw markdown file in your directory)
-    staff_path = "C:\\Users\\Kareem\\Desktop\\GP\\PSUT-AI-AGENT\\RAG\\KB\\staff_directory.md"
+    # 1. Load Staff Directory 
+    staff_path = "C:\\Users\\20220458\\Desktop\\GP\\PSUT-AI-AGENT\\RAG\\KB\\staff_directory.md"
     if os.path.exists(staff_path):
         with open(staff_path, 'r', encoding='utf-8') as f:
             cag_text += f.read() + "\n\n"
@@ -44,54 +43,94 @@ def load_cag_context():
 print("Building CAG system prompt...")
 SYSTEM_CAG_CONTEXT = load_cag_context()
 
-def retrieve_rag_context(query: str, top_k: int = 2) -> str:
+def classify_intent(query: str) -> str:
     """
-    Dynamically searches Qdrant collections for heavy, dense text 
-    (Student Guide, Study Plans, Major Overviews).
+    Uses the local LLM to classify the query intent to route to the correct database.
     """
-    query_vector = embedder.encode(query).tolist()
-    collections_to_search = ["student_guide", "major_overview", "study_plans"]
+    routing_prompt = f"""Analyze the user query and classify it into EXACTLY ONE of the following categories. Output NOTHING ELSE except the category name.
+
+Categories:
+- study_plans: Questions about courses, prerequisites, or curriculum tables.
+- major_overview: Questions about tuition prices, major descriptions, or credit hour totals.
+- student_guide: Questions about university rules, penalties, code of conduct, or graduation policies.
+- general_faq: Questions about procedural steps, ID cards, portal access, or staff contact info.
+
+User Query: {query}
+Category:"""
+
+    response = ollama.generate(model=LLM_MODEL, prompt=routing_prompt)
+    intent = response['response'].strip().lower()
     
+    # Fallback to searching all if the LLM hallucinates an invalid category
+    valid_collections = ["study_plans", "major_overview", "student_guide"]
+    if intent in valid_collections:
+        return [intent]
+    elif "general" in intent:
+        return [] # Empty list means don't search Qdrant, rely entirely on the CAG (System Prompt)
+    else:
+        return valid_collections # Fallback: search all
+
+def retrieve_rag_context(query: str, target_collections: list, top_k: int = 2) -> str:
+    # Your new logic: Skip vector search entirely if it's a general FAQ or Staff query
+    if not target_collections:
+        print("[DEBUG] No target collections specified. Skipping vector search.")
+        return "" 
+        
+    query_vector = embedder.encode(query).tolist()
     retrieved_texts = []
     
-    for collection in collections_to_search:
-        # Check if collection has data before searching to avoid errors
+    for collection in target_collections:
         try:
-            results = qdrant.search(
+            print(f"\n[DEBUG] Attempting to search collection: {collection}...")
+            
+            # The working modern Qdrant syntax (prevents the AttributeError)
+            response = qdrant.query_points(
                 collection_name=collection,
-                query_vector=("dense", query_vector),
+                query=query_vector,
+                using="dense", 
                 limit=top_k
             )
-            for hit in results:
-                # hit.payload contains the chunk dictionary we ingested earlier
+            
+            results = response.points
+            print(f"[DEBUG] Found {len(results)} chunks in {collection}.")
+            
+            for i, hit in enumerate(results):
                 chunk_text = hit.payload.get("text", "")
                 if chunk_text:
+                    # Printing the chunk to the terminal for debugging
+                    print(f"\n>>> PRINTING CHUNK {i+1} FROM {collection} <<<")
+                    print(chunk_text)
+                    print(">" * 50)
                     retrieved_texts.append(f"Source ({collection}):\n{chunk_text}")
+                    
         except Exception as e:
-            continue # Skip if collection is empty or not initialized properly
+            # Keeping the error visible so it never fails silently again
+            print(f"\n[CRITICAL ERROR] Failed searching collection '{collection}': {e}\n")
+            continue 
             
     return "\n\n".join(retrieved_texts)
 
 def generate_response(query: str) -> str:
-    """
-    Orchestrates the cache, RAG retrieval, and Ollama LLM generation.
-    """
-    # 1. Check Dhakira Semantic Cache first
+    # 1. Check Cache
     cached_response = cache.get(query)
     if cached_response:
         print("[Served from Dhakira Semantic Cache]")
         return cached_response.get("response", "")
 
-    # 2. If not cached, retrieve dynamic RAG context
-    rag_context = retrieve_rag_context(query)
-    
-    # 3. Construct the final prompt for Ollama
+    # 2. Classify Intent
+    collections_to_search = classify_intent(query)
+    print(f"[Router decision: Searching {collections_to_search if collections_to_search else 'CAG Only'}]")
+
+    # 3. Retrieve specific RAG context
+    rag_context = retrieve_rag_context(query, collections_to_search)
+    # 4. Construct the final prompt for Ollama
     system_prompt = f"""You are the official student support AI for Princess Sumaya University for Technology (PSUT). 
-You must answer questions accurately in Arabic based ONLY on the provided context. If the answer is not in the context, say you do not know.
+    You must answer questions accurately in Arabic based ONLY on the provided context. If the answer is not in the context, say exactly "I do not know" and nothing else.
 
 {SYSTEM_CAG_CONTEXT}
 
 === DYNAMIC RETRIEVED RULES AND PLANS ===
+
 {rag_context}
 """
 
@@ -119,6 +158,7 @@ You must answer questions accurately in Arabic based ONLY on the provided contex
     return full_response
 
 if __name__ == "__main__":
+    
     print("\nPSUT Local Support Bot Initialized. Type 'exit' to quit.")
     print("-" * 50)
     
