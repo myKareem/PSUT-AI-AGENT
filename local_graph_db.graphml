@@ -1,4 +1,1631 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <graph edgedefault="directed" />
+  <key id="d5" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d4" for="node" attr.name="title" attr.type="string" />
+  <key id="d3" for="node" attr.name="phone" attr.type="string" />
+  <key id="d2" for="node" attr.name="email" attr.type="string" />
+  <key id="d1" for="node" attr.name="context" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="PSUT">
+      <data key="d0">University</data>
+    </node>
+    <node id="الهيئة التدريسية - جامعة الأميرة سمية للتكنولوجيا">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="مجلس العمداء - جامعة الأميرة سمية للتكنولوجيا">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="مجلس الجامعة - جامعة الأميرة سمية للتكنولوجيا">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="أ.د. وجدان أبو الهيجاء">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">رئيس الجامعة أستاذ</data>
+      <data key="d2">elhaija@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5000</data>
+    </node>
+    <node id="أ.د أنس ابو طالب">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">عميد كلية الملك الحسين لعلوم الحوسبة أستاذ</data>
+      <data key="d2">a.abutaleb@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5304</data>
+    </node>
+    <node id="عميد كلية الملك الحسين لعلوم الحوسبة أستاذ">
+      <data key="d0">Department</data>
+    </node>
+    <node id="د. عدي الطويسي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">عميد كلية الملك طلال لتكنولوجيا الأعمال أستاذ مشارك</data>
+      <data key="d2">a.tweissi@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5401</data>
+    </node>
+    <node id="عميد كلية الملك طلال لتكنولوجيا الأعمال أستاذ مشارك">
+      <data key="d0">Department</data>
+    </node>
+    <node id="أ.د. أسامه بدارنه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">نائب الرئيس للشؤون الإدارية أستاذ</data>
+      <data key="d2">o.badarneh@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5701</data>
+    </node>
+    <node id="د. رامي الزبدية">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">نائب العميد ومنسق اعتماد AACSB أستاذ مساعد</data>
+      <data key="d2">r.zebdieh@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5439</data>
+    </node>
+    <node id="د. اسامة أبو شرخ">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">عميد كلية الملك عبد الله الثاني للهندسة أستاذ مشارك</data>
+      <data key="d2">osama@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext. 5501</data>
+    </node>
+    <node id="عميد كلية الملك عبد الله الثاني للهندسة أستاذ مشارك">
+      <data key="d0">Department</data>
+    </node>
+    <node id="د. أحمد التميمي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">نائب العميد أستاذ مشارك</data>
+      <data key="d2">a.altamimi@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex:</data>
+    </node>
+    <node id="د. بلال حمود">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">مساعد العميد أستاذ مساعد</data>
+      <data key="d2">b.hamoud@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5433</data>
+    </node>
+    <node id="د. محمد الصمادي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">رئيس قسم إدارة الأعمال أستاذ مشارك</data>
+      <data key="d2">m.sumadi@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5423</data>
+    </node>
+    <node id="د. طارق بدير">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">مساعد العميد أستاذ مساعد</data>
+      <data key="d2">t.bdair@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex:</data>
+    </node>
+    <node id="أ.د. أمجد الموسى">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">عميد كلية الملك عبد الله الأول للدراسات العليا والبحث العلمي أستاذ</data>
+      <data key="d2">a.almousa@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext. 5548</data>
+    </node>
+    <node id="عميد كلية الملك عبد الله الأول للدراسات العليا والبحث العلمي أستاذ">
+      <data key="d0">Department</data>
+    </node>
+    <node id="د. فندي عميش">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">رئيس قسم التسويق الإلكتروني والتواصل الاجتماعيأستاذ مساعد</data>
+      <data key="d2">f.omeish@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5409/5410</data>
+    </node>
+    <node id="د. عنان سروجي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">رئيس قسم المحاسبة منسق برنامج ماجستير تكنولوجيا المالية والمحاسبة التحليلية أستاذ مشارك</data>
+      <data key="d2">a.srouji@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5405/5406</data>
+    </node>
+    <node id="أ.د. فادي شحروري">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">مساعد عميد كلية الملك عبد الله الثاني للهندسة أستاذ</data>
+      <data key="d2">fadi@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5504 / 5522</data>
+    </node>
+    <node id="مساعد عميد كلية الملك عبد الله الثاني للهندسة أستاذ">
+      <data key="d0">Department</data>
+    </node>
+    <node id="أ.د. عبدالله قصف">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">رئيس قسم هندسة البرمجيات أستاذ دكتور</data>
+      <data key="d2">a.qusef@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5363</data>
+    </node>
+    <node id="د. شيرين جاد الله">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">رئيس وحدة تنسيق المساقات الخدمية أستاذ مساعد</data>
+      <data key="d2">s.jadallah@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5407/5408</data>
+    </node>
+    <node id="د. أوس كنعان">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">رئيس قسم هندسة الحاسوبأستاذ مساعد</data>
+      <data key="d2">a.kanan@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5551</data>
+    </node>
+    <node id="أ.د. أيمن فزع">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">نائب عميد كلية الملك عبد الله الثاني للهندسةأستاذ</data>
+      <data key="d2">a.faza@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5531</data>
+    </node>
+    <node id="نائب عميد كلية الملك عبد الله الثاني للهندسةأستاذ">
+      <data key="d0">Department</data>
+    </node>
+    <node id="د. داليا العيسوي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">رئيس قسم تكنولوجيا معلومات الأعمال أستاذ مساعد</data>
+      <data key="d2">d.aleisawi@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5463</data>
+    </node>
+    <node id="د. سارة تدمري">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">رئيس قسم علم الرسم الحاسوبيأستاذ مشارك</data>
+      <data key="d2">S.Tedmori@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5306</data>
+    </node>
+    <node id="أ. د. محمد العزه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">رئيس قسم علم البيانات أستاذ</data>
+      <data key="d2">m.azzeh@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5344</data>
+    </node>
+    <node id="أ.د. محمود دار عاصي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">رئيس قسم العلوم الأساسية أستاذ</data>
+      <data key="d2">m.assi@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5509 /5510</data>
+    </node>
+    <node id="أ.د. بكر السرحان">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ دكتور</data>
+      <data key="d2">alserhan@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5425</data>
+    </node>
+    <node id="أ.د. شفيق حداد">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ دكتور</data>
+      <data key="d2">s.haddad@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5453</data>
+    </node>
+    <node id="د. لؤي الطراونه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">رئيس قسم هندسة الاتصالاتأستاذ مشارك</data>
+      <data key="d2">l.altarawneh@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5507 /5508</data>
+    </node>
+    <node id="أ.د ستيفن روزنباوم">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ متعاون</data>
+      <data key="d2">Stephen.rosenbaum@faculty.hult.edu</data>
+      <data key="d3">+96265959949 Ex: 5403/5404</data>
+    </node>
+    <node id="أ.د. علي الحاج">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">ali@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5541</data>
+    </node>
+    <node id="د. مناف غرايبه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">رئيس قسم علم الحاسوبأستاذ مساعد</data>
+      <data key="d2">m.gharaibeh@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5359</data>
+    </node>
+    <node id="أ.د. محمد الخصاونة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ دكتور</data>
+      <data key="d2">m.alkhasaawneh@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5409/5410</data>
+    </node>
+    <node id="أ. د. عرفات عوجان">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">awajan@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5300</data>
+    </node>
+    <node id="أ.د. عمر العتوم">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">ohasan@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5558</data>
+    </node>
+    <node id="أ.د. محمود القضاة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ دكتور</data>
+      <data key="d2">mq@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5442</data>
+    </node>
+    <node id="أ.د. أحمد حياصات">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">a.hiasat@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5542</data>
+    </node>
+    <node id="أ.د. وليد سلامة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">walid@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5326</data>
+    </node>
+    <node id="أ.د. صالح أبو السعود">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">abu-soud@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5360</data>
+    </node>
+    <node id="أ.د. عبدالله الزعبي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">zoubi@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5560</data>
+    </node>
+    <node id="أ. د. أشرف أحمد">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">a.ahmad@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5301</data>
+    </node>
+    <node id="أ.د جعفر الصرايره">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">j.saraireh@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5023</data>
+    </node>
+    <node id="أ.د. محمد كساسبة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد الرئيس</data>
+      <data key="d2">m.alkasassbeh@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5346</data>
+    </node>
+    <node id="أ.د. أشرف طاهات">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">tahat@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5561</data>
+    </node>
+    <node id="أ.د. منى المولا">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ دكتور</data>
+      <data key="d2">m.almwalla@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5405/5406</data>
+    </node>
+    <node id="أ.د. عبد الغني البعلي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ دكتور</data>
+      <data key="d2">a.albaa@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5445</data>
+    </node>
+    <node id="أ.د. سيرينا ساندري">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ دكتور</data>
+      <data key="d2">s.sandri@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5403/5404</data>
+    </node>
+    <node id="أ. د. محمد النبهان">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">m.alnabhan@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5323</data>
+    </node>
+    <node id="أ.د. محمد صبابحه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">Sababheh@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5556</data>
+    </node>
+    <node id="د. رائد وشاح">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">r.wishah@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5422</data>
+    </node>
+    <node id="أ.د. أيمن ياسين">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ دكتور</data>
+      <data key="d2">a.yasin@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5448</data>
+    </node>
+    <node id="د. نادية صويص">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">n.sweis@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5432</data>
+    </node>
+    <node id="أ.د. بلال صبابحه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">b.sababha@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5500</data>
+    </node>
+    <node id="أ.د. خلدون الطراونه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">khaldoun@psut.edu.jo / library@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5101</data>
+    </node>
+    <node id="أ.د. عماد الدين عبدالله">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="أ.د. مصطفى الفيومي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">m.alfayoumi@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5312</data>
+    </node>
+    <node id="أ.د. فداء محمد">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">f.mohammad@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5573</data>
+    </node>
+    <node id="د. عبد الرحيم ابو البصل">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">a.abualbasal@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5411/5412</data>
+    </node>
+    <node id="Prof. Vernon Jay Richardson">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ دكتور</data>
+      <data key="d2">VRichardson@walton.uark.edu</data>
+      <data key="d3">+96265959949 Ex: 5405/5406</data>
+    </node>
+    <node id="د. مهند العربيات">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">استاذ مساعد</data>
+      <data key="d2">m.arabiat@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex:5409/5410</data>
+    </node>
+    <node id="د. عمار عوده">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">مدير مركز الاستشارات و التدريب أستاذ مشارك</data>
+      <data key="d2">a.odeh@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5350</data>
+    </node>
+    <node id="أ.د. أحمد التوايهه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">atawayha@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5523</data>
+    </node>
+    <node id="أ.د. مأمون أحمد">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">مدير مكتبة الحسن أستاذ</data>
+      <data key="d2">m.ahmed@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5579</data>
+    </node>
+    <node id="أ.د. سعود الذنيبات">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">s.althunibat@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949</data>
+    </node>
+    <node id="أ. د. ميشيل سويدان">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ دكتور</data>
+      <data key="d2">m.suwaidan@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5405/5406</data>
+    </node>
+    <node id="د. محمد الزعبي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">mzoube@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5339</data>
+    </node>
+    <node id="د. نائلة الماضي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">n.madi@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5337</data>
+    </node>
+    <node id="د. ميساء خضر">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">m.khader@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5569</data>
+    </node>
+    <node id="د. بهاء الخصاونه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">baha@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5354</data>
+    </node>
+    <node id="د. إبراهيم البلوي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">i.albluwi@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5325</data>
+    </node>
+    <node id="د. مجد بطارسة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">m.batarseh@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5549</data>
+    </node>
+    <node id="د. عبد الهادي رمضان">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">a.ramadan@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5450</data>
+    </node>
+    <node id="د. جورج سمور">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">george.sammour@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5400/5401</data>
+    </node>
+    <node id="د. محمد الروسان">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">m.alrousan@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5457</data>
+    </node>
+    <node id="د. عمار الحسن">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">a.elhassan@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5322</data>
+    </node>
+    <node id="د. يحيى الخطاطبه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">y.alkhatatbeh@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5580</data>
+    </node>
+    <node id="د. خليف الخوالدة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">k.alkhawaldeh@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5457</data>
+    </node>
+    <node id="د. رامي وحشة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">R.wahsheh@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5564</data>
+    </node>
+    <node id="د. أسامة الحاج حسن">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">o.alhajhassan@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex:</data>
+    </node>
+    <node id="د. عمرو مدادحة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">A.almadadha@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5470</data>
+    </node>
+    <node id="أ.د. سامية بشناق">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ</data>
+      <data key="d2">s.bushnaq@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5571</data>
+    </node>
+    <node id="د. محمد الشبول">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">m.shboul@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5454</data>
+    </node>
+    <node id="د. هاني العبداللات">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">h.abdallat@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5403/5404</data>
+    </node>
+    <node id="د. سليمان محمد">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">منسق برنامج الماجستير التنفيذي في إدارة الأعمال أستاذ مشارك</data>
+      <data key="d2">s.mohmmad@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5438</data>
+    </node>
+    <node id="د. فادي قطيشات">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">f.qutaishat@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5469</data>
+    </node>
+    <node id="د. محمد العمري">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">مدير مركز التعلم الإلكتروني أستاذ مشارك</data>
+      <data key="d2">m.alomari@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5055</data>
+    </node>
+    <node id="أ.د. رامي سالم">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ دكتور</data>
+      <data key="d2">ramijas@psut.edu.jo</data>
+      <data key="d3">(+962) 65359949 Ext. 5650</data>
+    </node>
+    <node id="د. مهند عتمه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">m.atmeh@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5405/5406</data>
+    </node>
+    <node id="د. هيثم العاني">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">h.ani@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5553</data>
+    </node>
+    <node id="د. هاني أحمد">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">h.ahmad@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext. 5505 / 5536</data>
+    </node>
+    <node id="د. قصي سالم">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">q.salem@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5537</data>
+    </node>
+    <node id="د. رجاء القضاة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">r.alqudah@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext. 5557</data>
+    </node>
+    <node id="د. رأفت الجراح">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">r.aljarrah@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5534</data>
+    </node>
+    <node id="د.محمد الجعافرة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949</data>
+    </node>
+    <node id="د. عبير جرادات">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">a.jaradat@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5581</data>
+    </node>
+    <node id="د.فارس الفاعوري">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="د. عبد الله أبو ماضي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">A.Abu-Madi@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5411/5412</data>
+    </node>
+    <node id="د. نجيب الشريده">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">n.shrydeh@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5437</data>
+    </node>
+    <node id="د. عمار عبده">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">a.abdo@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949</data>
+    </node>
+    <node id="د. ابراهيم أبو شميس">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">رئيس قسم الهندسة الكهربائيةأستاذ مساعد</data>
+      <data key="d2">I.abuishmais@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5538</data>
+    </node>
+    <node id="د.محمد جمال عبد الرحمن">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">m.abdelrahman@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex:</data>
+    </node>
+    <node id="د. رامي إبراهيم">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">rami.ibrahim@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5411/5412</data>
+    </node>
+    <node id="د. حمزة جابر">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">h.jaber@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="د. عبدالله هياجنة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">a.hayajneh@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949</data>
+    </node>
+    <node id="د. نور دامر">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">منسق برنامج ماجستير تحليل الأعمال أستاذ مساعد</data>
+      <data key="d2">n.damer@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5465</data>
+    </node>
+    <node id="د. يزن الرواشدة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">y.alrawashdeh@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949</data>
+    </node>
+    <node id="د. هبه عبدالنبي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">h.abdelnabi@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949</data>
+    </node>
+    <node id="د. محمد عبد المجيد">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">m.abdelmajeed@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949</data>
+    </node>
+    <node id="د. فراس الغانم">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">f.ghanim@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5301</data>
+    </node>
+    <node id="د. أحمد النسور">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">مدير- الموارد البشرية أستاذ مساعد</data>
+      <data key="d2">a.alnsour@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5403/5404</data>
+    </node>
+    <node id="د.زيد حيمور">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر متفرغ</data>
+      <data key="d2">z.haymoor@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949</data>
+    </node>
+    <node id="د. أحمد الطراونة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">a.tarawneh@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5446</data>
+    </node>
+    <node id="د. مهنا مهنا">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">عميد القبول والتسجيل أستاذ مشارك</data>
+      <data key="d2">M.Muhanna@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5601</data>
+    </node>
+    <node id="د. حازم قطوس">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">مدير مركز ضمان الجودة والإعتماد أستاذ مشارك</data>
+      <data key="d2">h.qattous@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5308</data>
+    </node>
+    <node id="د. أسيل ابو عجمية">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">منسق برنامج ماجستير ريادة الأعمال أستاذ مساعد</data>
+      <data key="d2">a.abuajamieh@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5429</data>
+    </node>
+    <node id="د. رمزي ردايدة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">عميد شؤون الطلبة أستاذ مساعد</data>
+      <data key="d2">r.radeideh@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5651</data>
+    </node>
+    <node id="د. لؤي عناية">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">l.anaya@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5468</data>
+    </node>
+    <node id="د. أحمد الزغول">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">a.alzghoul@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5348</data>
+    </node>
+    <node id="د. عبدالله عارف">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">a.aref@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5345</data>
+    </node>
+    <node id="د. وائل العطيوي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">w.etaiwi@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5411/5412</data>
+    </node>
+    <node id="د. بشرى الحجاوي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">b.alhijawi@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5351</data>
+    </node>
+    <node id="د. رأفت حماد">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="د. محمد أبو حشيش">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">m.Abuhashesh@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5455</data>
+    </node>
+    <node id="م. فاديا العيسى">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">f.elissa@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5570</data>
+    </node>
+    <node id="د.معتز الهامي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="رجاء القديرات">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">r.qderat@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5577</data>
+    </node>
+    <node id="د. أسامة عبد الحي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">o.abdelhay@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5335</data>
+    </node>
+    <node id="د. محمد عبابنه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">m.ababneh@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5342</data>
+    </node>
+    <node id="د. ايناس ابو لبدة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">e.abulibdeh@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="د. محمد أبو صنوبر">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">m.abusnober@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5349</data>
+    </node>
+    <node id="د. عُلا الحديد">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">منسق هدف التنمية المستدامة 17SDG -شراكات الهدف أستاذ مساعد</data>
+      <data key="d2">o.alhadeed@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5403/5404</data>
+    </node>
+    <node id="د. عبدالله الرفاعي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">a.alrefai@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5331</data>
+    </node>
+    <node id="د. معاوية الضلاعين">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">m.aldalaien@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5356</data>
+    </node>
+    <node id="د. سرين عطياني">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">s.atiani@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5310</data>
+    </node>
+    <node id="عمر زايد">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">مدرس</data>
+      <data key="d2">o.zayed@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5567</data>
+    </node>
+    <node id="د. عمار قسايمة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">منسق برنامج ماجستير التسويق الإلكتروني والتواصل الاجتماعي أستاذ مساعد</data>
+      <data key="d2">a.qasaimeh@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5409/5410</data>
+    </node>
+    <node id="م. حازم مرار">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">h.marar@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext. 5530</data>
+    </node>
+    <node id="د. رغده حريز">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">R.hraiz@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex:</data>
+    </node>
+    <node id="عمر ياسين">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">o.yasin@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5582</data>
+    </node>
+    <node id="د. رشا الغزاوي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">r.alghazzawi@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5405/5406</data>
+    </node>
+    <node id="طارق الضراغمة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">مدرس</data>
+      <data key="d2">t.aldaraghmeh@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5576</data>
+    </node>
+    <node id="م. فرح أبو دبسة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">f.abudabaseh@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5563</data>
+    </node>
+    <node id="تغريد قعوار">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">tagreed@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5443</data>
+    </node>
+    <node id="يوسف أبو حور">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">y.abuhour@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5543</data>
+    </node>
+    <node id="م. نور الكتاوي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">n.kattawi@psut.edu.jo</data>
+      <data key="d3">(06) 535 9949 Ext.5524</data>
+    </node>
+    <node id="ليلى رواشدة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">l.rawashdeh@psut.edu.jo, study.abroad@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ext# 5430, Cellular 962775624503</data>
+    </node>
+    <node id="د. ضياء قاسم">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">استاذ مساعد</data>
+      <data key="d2">d.qasim@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex:5409/5410</data>
+    </node>
+    <node id="د.سيف الدين قواسمة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">s.qawasmeh@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5411/5412</data>
+    </node>
+    <node id="طارق عبد ربه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">t.abdrabbo@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5451</data>
+    </node>
+    <node id="أسماء زنيمات">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">a.znaimat@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5435</data>
+    </node>
+    <node id="د. ياسر صالح">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">y.saleh@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex:</data>
+    </node>
+    <node id="شهيناز عيسى">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">s.issa@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5449</data>
+    </node>
+    <node id="رند بدران">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">r.badran@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5409/5410</data>
+    </node>
+    <node id="د. سامر الكبابجي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">s.elkababji@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="بي هيو لين">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">p.lin@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5408/5407</data>
+    </node>
+    <node id="د. سامر صوالحه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">s.sawalha@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="د.عمر القواسمة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="غاندي ربابعه">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="د.الحاكم مسعود">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مساعد</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="دارين الشلعوط">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="د. سحر العيد">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="أ. نرمين الحياري">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">n.alhyari@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5357</data>
+    </node>
+    <node id="د.زينة قاسم">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">z.qasem@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex:5409/5410</data>
+    </node>
+    <node id="د. عامر بدران">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">a.badran@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex:5409/5410</data>
+    </node>
+    <node id="أ. روزانا مرار">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">R.Marar@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex: 5355</data>
+    </node>
+    <node id="د. ندى غش">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">n.ghesh@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex:5409/5410</data>
+    </node>
+    <node id="م. غيداء الحياصات">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">g.alhyasat@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5411/5412</data>
+    </node>
+    <node id="د. سالم الحبابسة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">أستاذ مشارك</data>
+      <data key="d2">s.alhababsah@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5405/5406</data>
+    </node>
+    <node id="السيد طارق فرغل">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex:5408/5409</data>
+    </node>
+    <node id="فرح الشريدة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">f.alshraiedeh@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5409/5410</data>
+    </node>
+    <node id="ليلى ملص">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">L.malas@psut.edu.jo</data>
+      <data key="d3">+96265959949 Ex: 5411/5412</data>
+    </node>
+    <node id="أ.علاء الترزي">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">a.altarazi@psut.edu.jo</data>
+      <data key="d3">+96265359949 Ex:</data>
+    </node>
+    <node id="أ. أحمد بني عامر">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">a.baniamer@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="أ.المها محمد أبو زريق">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">m.abuzuraiq@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="أ.وسن المعايطة">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="م. آيات الضروس">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <node id="أ.أميمة إسماعيل">
+      <data key="d1">Staff Directory | PSUT University | Faculty Member</data>
+      <data key="d4">محاضر</data>
+      <data key="d2">info@psut.edu.jo</data>
+      <data key="d3">+962-6-535-9949</data>
+    </node>
+    <edge source="الهيئة التدريسية - جامعة الأميرة سمية للتكنولوجيا" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="مجلس العمداء - جامعة الأميرة سمية للتكنولوجيا" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="مجلس الجامعة - جامعة الأميرة سمية للتكنولوجيا" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. وجدان أبو الهيجاء" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د أنس ابو طالب" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د أنس ابو طالب" target="عميد كلية الملك الحسين لعلوم الحوسبة أستاذ">
+      <data key="d5">belongs to</data>
+    </edge>
+    <edge source="د. عدي الطويسي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عدي الطويسي" target="عميد كلية الملك طلال لتكنولوجيا الأعمال أستاذ مشارك">
+      <data key="d5">belongs to</data>
+    </edge>
+    <edge source="أ.د. أسامه بدارنه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. رامي الزبدية" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. اسامة أبو شرخ" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. اسامة أبو شرخ" target="عميد كلية الملك عبد الله الثاني للهندسة أستاذ مشارك">
+      <data key="d5">belongs to</data>
+    </edge>
+    <edge source="د. أحمد التميمي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. بلال حمود" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. محمد الصمادي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. طارق بدير" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. أمجد الموسى" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. أمجد الموسى" target="عميد كلية الملك عبد الله الأول للدراسات العليا والبحث العلمي أستاذ">
+      <data key="d5">belongs to</data>
+    </edge>
+    <edge source="د. فندي عميش" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عنان سروجي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. فادي شحروري" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. فادي شحروري" target="مساعد عميد كلية الملك عبد الله الثاني للهندسة أستاذ">
+      <data key="d5">belongs to</data>
+    </edge>
+    <edge source="أ.د. عبدالله قصف" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. شيرين جاد الله" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. أوس كنعان" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. أيمن فزع" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. أيمن فزع" target="نائب عميد كلية الملك عبد الله الثاني للهندسةأستاذ">
+      <data key="d5">belongs to</data>
+    </edge>
+    <edge source="د. داليا العيسوي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. سارة تدمري" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ. د. محمد العزه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. محمود دار عاصي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. بكر السرحان" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. شفيق حداد" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. لؤي الطراونه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د ستيفن روزنباوم" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. علي الحاج" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. مناف غرايبه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. محمد الخصاونة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ. د. عرفات عوجان" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. عمر العتوم" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. محمود القضاة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. أحمد حياصات" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. وليد سلامة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. صالح أبو السعود" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. عبدالله الزعبي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ. د. أشرف أحمد" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د جعفر الصرايره" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. محمد كساسبة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. أشرف طاهات" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. منى المولا" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. عبد الغني البعلي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. سيرينا ساندري" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ. د. محمد النبهان" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. محمد صبابحه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. رائد وشاح" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. أيمن ياسين" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. نادية صويص" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. بلال صبابحه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. خلدون الطراونه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. عماد الدين عبدالله" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. مصطفى الفيومي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. فداء محمد" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عبد الرحيم ابو البصل" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="Prof. Vernon Jay Richardson" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. مهند العربيات" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عمار عوده" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. أحمد التوايهه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. مأمون أحمد" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. سعود الذنيبات" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ. د. ميشيل سويدان" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. محمد الزعبي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. نائلة الماضي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. ميساء خضر" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. بهاء الخصاونه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. إبراهيم البلوي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. مجد بطارسة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عبد الهادي رمضان" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. جورج سمور" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. محمد الروسان" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عمار الحسن" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. يحيى الخطاطبه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. خليف الخوالدة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. رامي وحشة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. أسامة الحاج حسن" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عمرو مدادحة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. سامية بشناق" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. محمد الشبول" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. هاني العبداللات" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. سليمان محمد" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. فادي قطيشات" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. محمد العمري" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.د. رامي سالم" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. مهند عتمه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. هيثم العاني" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. هاني أحمد" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. قصي سالم" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. رجاء القضاة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. رأفت الجراح" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د.محمد الجعافرة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عبير جرادات" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د.فارس الفاعوري" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عبد الله أبو ماضي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. نجيب الشريده" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عمار عبده" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. ابراهيم أبو شميس" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د.محمد جمال عبد الرحمن" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. رامي إبراهيم" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. حمزة جابر" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عبدالله هياجنة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. نور دامر" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. يزن الرواشدة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. هبه عبدالنبي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. محمد عبد المجيد" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. فراس الغانم" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. أحمد النسور" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د.زيد حيمور" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. أحمد الطراونة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. مهنا مهنا" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. حازم قطوس" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. أسيل ابو عجمية" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. رمزي ردايدة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. لؤي عناية" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. أحمد الزغول" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عبدالله عارف" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. وائل العطيوي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. بشرى الحجاوي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. رأفت حماد" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. محمد أبو حشيش" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="م. فاديا العيسى" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د.معتز الهامي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="رجاء القديرات" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. أسامة عبد الحي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. محمد عبابنه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. ايناس ابو لبدة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. محمد أبو صنوبر" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عُلا الحديد" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عبدالله الرفاعي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. معاوية الضلاعين" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. سرين عطياني" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="عمر زايد" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عمار قسايمة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="م. حازم مرار" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. رغده حريز" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="عمر ياسين" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. رشا الغزاوي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="طارق الضراغمة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="م. فرح أبو دبسة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="تغريد قعوار" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="يوسف أبو حور" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="م. نور الكتاوي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="ليلى رواشدة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. ضياء قاسم" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د.سيف الدين قواسمة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="طارق عبد ربه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أسماء زنيمات" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. ياسر صالح" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="شهيناز عيسى" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="رند بدران" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. سامر الكبابجي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="بي هيو لين" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. سامر صوالحه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د.عمر القواسمة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="غاندي ربابعه" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د.الحاكم مسعود" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="دارين الشلعوط" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. سحر العيد" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ. نرمين الحياري" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د.زينة قاسم" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. عامر بدران" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ. روزانا مرار" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. ندى غش" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="م. غيداء الحياصات" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="د. سالم الحبابسة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="السيد طارق فرغل" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="فرح الشريدة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="ليلى ملص" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.علاء الترزي" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ. أحمد بني عامر" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.المها محمد أبو زريق" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.وسن المعايطة" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="م. آيات الضروس" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+    <edge source="أ.أميمة إسماعيل" target="PSUT">
+      <data key="d5">works at</data>
+    </edge>
+  </graph>
 </graphml>
