@@ -1,0 +1,15 @@
+# --- Foundation & Ingestion (Week 1) ---
+
+# Core audio I/O
+pyaudio==0.2.14
+
+# High-performance array operations for Ring Buffer
+numpy>=1.24.0
+
+# --- Verification & Testing (Recommended) ---
+
+# For saving audio samples to verify quality (WAV format)
+scipy>=1.10.0
+
+# For visualizing the waveform and checking for dropouts
+matplotlib>=3.7.0
