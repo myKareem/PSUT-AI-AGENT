@@ -1,137 +1,107 @@
-import os
-os.environ["TORCHINDUCTOR_DISABLE"] = "1"
-os.environ["TORCH_COMPILE_DISABLE"] = "1"
-
 from unsloth import FastLanguageModel
-import torch
 from datasets import load_dataset
 from trl import SFTTrainer
 from transformers import TrainingArguments
+from unsloth import is_bfloat16_supported
 
-# ── Configuration ──────────────────────────────────────────────────────────────
+# 1. Configuration
+max_seq_length = 2048
+dtype = None # Auto-detect
+load_in_4bit = True # Crucial to fit Qwen 2.5 7B into your 16GB VRAM
 
-MODEL_NAME        = "unsloth/Qwen2.5-7B-Instruct-bnb-4bit"  # changed from base to instruct
-DATASET_PATH      = "data/levantine_train.jsonl"
-OUTPUT_DIR        = "outputs/qwen2.5-7b-instruct-jordanian-lora"
-MAX_SEQ_LENGTH    = 512
-LORA_RANK         = 32       # increased from 16
-LORA_ALPHA        = 64       # higher than rank for stronger dialect push
-BATCH_SIZE        = 4
-GRAD_ACCUM_STEPS  = 4
-LEARNING_RATE     = 2e-4
-NUM_EPOCHS        = 1
-SEED              = 42
-
-# ── Load Model and Tokenizer ────────────────────────────────────────────────────
-
-print("Loading model...")
-
+print("Loading Model...")
+# 2. Load Qwen 2.5 7B Instruct Model
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name        = MODEL_NAME,
-    max_seq_length    = MAX_SEQ_LENGTH,
-    dtype             = None,
-    load_in_4bit      = True,
+    model_name = "unsloth/Qwen2.5-7B-Instruct",
+    max_seq_length = max_seq_length,
+    dtype = dtype,
+    load_in_4bit = load_in_4bit,
 )
 
-# ── Apply LoRA ──────────────────────────────────────────────────────────────────
-
+# 3. Apply LoRA (Trains only a tiny fraction of the model)
 model = FastLanguageModel.get_peft_model(
     model,
-    r                   = LORA_RANK,
-    lora_alpha          = LORA_ALPHA,
-    lora_dropout        = 0,
-    target_modules      = [
-        "q_proj",
-        "k_proj",
-        "v_proj",
-        "o_proj",
-    ],
-    bias                = "none",
-    use_gradient_checkpointing = "unsloth",
-    random_state        = SEED,
-    use_rslora          = False,
-    loftq_config        = None,
+    r = 16, 
+    target_modules =["q_proj", "k_proj", "v_proj", "o_proj",
+                      "gate_proj", "up_proj", "down_proj",],
+    lora_alpha = 16,
+    lora_dropout = 0, 
+    bias = "none",    
+    use_gradient_checkpointing = "unsloth", 
+    random_state = 3407,
+    use_rslora = False,  
 )
 
-# ── Load Dataset ────────────────────────────────────────────────────────────────
+# 4. Prepare Dataset Formatting
+print("Preparing Dataset...")
+def format_prompts(example):
+    formatted_texts = []
+    
+    for inst, ctx, res in zip(example['instruction'], example['context'], example['response']):
+        
+        # Hardcode the system prompt here
+        sys_prompt = """أنت مساعد ذكي لجامعة  . أجب بدقة وبشكل مفيد بناءً على السياق المقدم.
+        هذا مثلال عن طريقة الحوار:
+    "instruction": "يعطيك العافية كم أكثر شي بقدر أنزل ساعات بالفصل العادي؟",
+    "context": "يكون العبء الدراسي للطالب في الجامعة (18) ثماني عشرة ساعة معتمدة في الفصل الدراسي حداً أقصى. ويجوز أن يأخذ الطالب في الجامعة ثلاث ساعات إضافية، إذا كان معدله التراكمي في الفصل السابق لا يقل عن 80%، بما في ذلك الفصل الصيفي.",
+    "response": "الله يعافيك يا هلا. الحد الأقصى للساعات بالفصل العادي هو 18 ساعة معتمدة. بس إذا كنت شطور ومعدلك التراكمي بالفصل الماضي 80% فأكثر، بتقدر تنزل 3 ساعات زيادة يعني بصيروا 21 ساعة. بالتوفيق!"
+  """
+        
+        messages = [
+            {"role": "system", "content": sys_prompt},
+            {"role": "user", "content": f"{inst}\n\n[السياق للمساعدة]:\n{ctx}"},
+            {"role": "assistant", "content": res}
+        ]
+        
+        text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=False)
+        formatted_texts.append(text)
+        
+    return {"text": formatted_texts}
 
-print("Loading dataset...")
+# Load your local JSON file
+dataset = load_dataset("json", data_files="data.json", split="train")
+dataset = dataset.map(format_prompts, batched=True)
 
-dataset = load_dataset("json", data_files=DATASET_PATH, split="train")
-
-print(f"Dataset size: {len(dataset)} examples")
-
-# ── Format Function ─────────────────────────────────────────────────────────────
-
-QWEN_CHAT_TEMPLATE = (
-    "{% for message in messages %}"
-    "{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}"
-    "{% endfor %}"
-    "{% if add_generation_prompt %}"
-    "{{ '<|im_start|>assistant\n' }}"
-    "{% endif %}"
-)
-
-tokenizer.chat_template = QWEN_CHAT_TEMPLATE
-
-def format_example(example):
-    text = tokenizer.apply_chat_template(
-        example["messages"],
-        tokenize=False,
-        add_generation_prompt=False,
-    )
-    return {"text": text}
-
-dataset = dataset.map(format_example, remove_columns=dataset.column_names)
-
-print("Sample formatted text:")
-print(dataset[0]["text"])
-print("─" * 60)
-
-# ── Training Arguments ──────────────────────────────────────────────────────────
-
-training_args = TrainingArguments(
-    output_dir                  = OUTPUT_DIR,
-    num_train_epochs            = NUM_EPOCHS,
-    per_device_train_batch_size = BATCH_SIZE,
-    gradient_accumulation_steps = GRAD_ACCUM_STEPS,
-    learning_rate               = LEARNING_RATE,
-    lr_scheduler_type           = "cosine",
-    warmup_ratio                = 0.05,
-    fp16                        = not torch.cuda.is_bf16_supported(),
-    bf16                        = torch.cuda.is_bf16_supported(),
-    logging_steps               = 10,
-    save_strategy               = "epoch",
-    save_total_limit            = 1,
-    seed                        = SEED,
-    report_to                   = "none",
-    dataloader_num_workers      = 0,
-)
-
-# ── Trainer ─────────────────────────────────────────────────────────────────────
-
+# 5. Training Setup
+print("Starting Training...")
 trainer = SFTTrainer(
-    model              = model,
-    tokenizer          = tokenizer,
-    train_dataset      = dataset,
+    model = model,
+    r = 32,
+    target_modules = "all-linear",
+    lora_alpha = 32,
+    lora_dropout = 0, 
+    bias = "none",
+    use_gradient_checkpointing = "unsloth",
+    random_state = 3407,
+    use_rslora = False,
+    tokenizer = tokenizer,
+    train_dataset = dataset,
     dataset_text_field = "text",
-    max_seq_length     = MAX_SEQ_LENGTH,
-    args               = training_args,
+    max_seq_length = max_seq_length,
+    dataset_num_proc = 2,
+    args = TrainingArguments(
+        per_device_train_batch_size = 2, 
+        gradient_accumulation_steps = 4,
+        warmup_steps = 10,
+        num_train_epochs = 4,
+        learning_rate = 2e-4,
+        fp16 = not is_bfloat16_supported(),
+        bf16 = is_bfloat16_supported(),
+        logging_steps = 5,
+        optim = "adamw_8bit",
+        weight_decay = 0.01,
+        lr_scheduler_type = "linear",
+        seed = 3407,
+        output_dir = "outputs",
+    ),
 )
 
-# ── Train ────────────────────────────────────────────────────────────────────────
-
-print("Starting training...")
+# Run the training
 trainer_stats = trainer.train()
 
-print("\nTraining complete.")
-print(f"Total steps:        {trainer_stats.global_step}")
-print(f"Training loss:      {trainer_stats.training_loss:.4f}")
-print(f"Runtime (seconds):  {trainer_stats.metrics['train_runtime']:.1f}")
+# 6. Export to Ollama GGUF format
+print("Training Complete! Exporting to Ollama GGUF Format...")
+# Quantize to Q4_K_M so it runs blazingly fast in Ollama
+model.save_pretrained_gguf("university_bot_model", tokenizer, quantization_method = "q4_k_m")
 
-# ── Save LoRA Adapter ────────────────────────────────────────────────────────────
-
-print(f"\nSaving LoRA adapter to {OUTPUT_DIR}...")
-model.save_pretrained(OUTPUT_DIR)
-tokenizer.save_pretrained(OUTPUT_DIR)
-print("Adapter saved.")
+print("Export Successful! You can now load it into Ollama.")
