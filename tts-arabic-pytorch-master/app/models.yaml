@@ -1,0 +1,3 @@
+fastpitch_adv:
+  type: fastpitch
+  path: checkpoints/exp_fp_adv/states_800000.pth

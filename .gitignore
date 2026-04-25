@@ -1,0 +1,8 @@
+# Ignore heavy TTS weights and audio files
+**/checkpoints/**/*.pth
+**/pretrained/*.pth
+**/test_results_finetune/
+**/logs/
+**/*.wav
+**/__pycache__/
+**/sada_legacy/
