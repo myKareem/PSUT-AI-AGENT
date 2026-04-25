@@ -15,43 +15,35 @@ git checkout MuradUpdated
 # Create and activate a virtual environment (Windows)
 python -m venv sada_tts_env
 sada_tts_env\Scripts\activate
+2. Download the Acoustic Weights
+Because the model brain is too large for GitHub, you need to download the trained checkpoint manually.
 
-## **2. Download the Acoustic Weights**
+Download the FastPitch Checkpoint Here
 
-The model weights are too large for GitHub, so you must download them manually.
+Placement:
+Once downloaded, place the .pth file directly into this exact folder path:
 
-**Download the FastPitch Checkpoint** https://drive.google.com/drive/folders/1W_ZoTUwgvVNmpWYyTyY05aIm3gcGzhKy?usp=drive_link
+checkpoints/exp_fp_adv/states_800000.pth
 
-After downloading, place the `.pth` file in the following directory:
-checkpoints/exp_fp_adv/ --> checkpoints/exp_fp_adv/states_800000.pth
+3. Install Dependencies
+TTS models are hardware-dependent, so we must install PyTorch separately from the standard requirements.
 
-## **3. Install Dependencies**
+A. Install PyTorch
+If you have an NVIDIA GPU on Windows, run this command to enable instant hardware acceleration:
 
-TTS models depend on hardware acceleration, so PyTorch must be installed separately.
-
-### A. Install PyTorch
-
-If you have an **NVIDIA GPU (Windows)**, use:
-
-```bash
+Bash
 pip install torch torchaudio --index-url [https://download.pytorch.org/whl/cu118](https://download.pytorch.org/whl/cu118)
+Note: If you do not have an NVIDIA GPU, this command might fail. If so, get your specific installation command from the PyTorch website.
 
-NOTE: If you do not have an NVIDIA GPU, this command may fail.
-Visit the official PyTorch website to get the correct installation command for your system.
+B. Install Core API Packages
+Once PyTorch is installed, install the remaining lightweight server requirements:
 
-### B. Install Core API Packages
-
-Once PyTorch is installed, install the remaining dependencies:
-
-```bash
+Bash
 pip install -r requirements.txt
-
-## **4. Booting the API Engine**
+4. Booting the API Engine
 Do not run inference.py directly in the terminal. Instead, boot up the FastAPI server. This keeps the model loaded in your memory so the RAG system can instantly synthesize speech without a loading delay.
 
-```bash
+Bash
 uvicorn app:app --reload
-
-
-✅ You're Ready
-Once the server is running, your TTS pipeline is ready to accept requests.
+5. Integration (For RAG/LLM)
+Once the server is running, it will actively listen on http://127.0.0.1:8000.
