@@ -1,49 +1,67 @@
-# 🎙️ PSUT-AI-AGENT: S.A.D.A. TTS Module Setup
+# 🎤 PSUT-AI-AGENT: S.A.D.A. TTS Module Setup
 
 This directory contains the finalized, lightweight FastPitch TTS module for the S.A.D.A. system (trained on Jordanian dialects). Follow these exact steps to run it locally so your RAG and LLM components can communicate with it.
 
 ---
 
-## 1. Get the Code & Set Up Environment
-First, make sure you are on the correct branch and create a clean virtual environment to avoid dependency conflicts with the RAG system.
+## **1. Get the Code & Set Up Environment**
 
+Make sure you're on the correct branch and using a clean virtual environment.
+
+### Pull the latest code
 ```bash
-# Pull the latest clean code
 git fetch
 git checkout MuradUpdated
-
-# Create and activate a virtual environment (Windows)
+```
+### Create and activate a virtual environment (Windows)
+```bash
 python -m venv sada_tts_env
 sada_tts_env\Scripts\activate
-2. Download the Acoustic Weights
-Because the model brain is too large for GitHub, you need to download the trained checkpoint manually.
+```
 
-Download the FastPitch Checkpoint Here
+## **2. Download the Acoustic Weights**
 
-Placement:
-Once downloaded, place the .pth file directly into this exact folder path:
+Because the model is too large for GitHub, you need to download the trained checkpoint manually.
 
-checkpoints/exp_fp_adv/states_800000.pth
+Download the FastPitch Checkpoint Here: https://drive.google.com/drive/folders/1W_ZoTUwgvVNmpWYyTyY05aIm3gcGzhKy?usp=drive_link
 
-3. Install Dependencies
-TTS models are hardware-dependent, so we must install PyTorch separately from the standard requirements.
 
-A. Install PyTorch
-If you have an NVIDIA GPU on Windows, run this command to enable instant hardware acceleration:
+Once downloaded, place the .pth file into this exact path:
 
-Bash
-pip install torch torchaudio --index-url [https://download.pytorch.org/whl/cu118](https://download.pytorch.org/whl/cu118)
-Note: If you do not have an NVIDIA GPU, this command might fail. If so, get your specific installation command from the PyTorch website.
+```bash
+checkpoints/exp_fp_adv/ --> checkpoints/exp_fp_adv/states_800000.pth
+```
 
-B. Install Core API Packages
-Once PyTorch is installed, install the remaining lightweight server requirements:
+## **3. Install Dependencies**
 
-Bash
+TTS models are hardware-dependent, so PyTorch must be installed separately.
+
+### Install PyTorch (NVIDIA GPU - Windows)
+```bash
+pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
+⚠️ If you do NOT have an NVIDIA GPU, this may fail.
+Get your correct installation command from the official PyTorch website.
+
+### Install Core API Packages
+```bash
 pip install -r requirements.txt
-4. Booting the API Engine
-Do not run inference.py directly in the terminal. Instead, boot up the FastAPI server. This keeps the model loaded in your memory so the RAG system can instantly synthesize speech without a loading delay.
+```
 
-Bash
+## **4. Booting the API Engine**
+
+Do NOT run inference.py directly.
+
+Start the FastAPI server instead:
+```bash
 uvicorn app:app --reload
-5. Integration (For RAG/LLM)
-Once the server is running, it will actively listen on http://127.0.0.1:8000.
+```
+This keeps the model loaded in memory so your system can generate speech instantly.
+
+## **5. Integration (For RAG / LLM)**
+
+Once the server is running, it will listen on:
+```bash
+http://127.0.0.1:8000
+```
+The RAG or LLM system can now send requests for speech synthesis.
