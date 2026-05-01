@@ -48,20 +48,30 @@ Get your correct installation command from the official PyTorch website.
 pip install -r requirements.txt
 ```
 
-## **4. Booting the API Engine**
+## 4. Integration (For RAG/LLM)
+To connect the TTS module to the LLM use below as an example:
+```python
+import pygame
+from sada_tts import SadaTTS
 
-Do NOT run inference.py directly.
+pygame.mixer.init()
 
-Start the FastAPI server instead:
-```bash
-uvicorn app:app --reload
-```
-This keeps the model loaded in memory so your system can generate speech instantly.
+# 1. Initialize the engine ONCE when your agent boots up
+tts_engine = SadaTTS()
 
-## **5. Integration (For RAG / LLM)**
+# ... inside your agent's main loop ...
+            .
+            .
+            .
+            .
+# 2. Pass the LLM's Arabic response text to the engine
+#LLM_text = response from the LLM 
+audio_file_path = tts_engine.speak(LLM_text)
 
-Once the server is running, it will listen on:
-```bash
-http://127.0.0.1:8000
-```
-The RAG or LLM system can now send requests for speech synthesis.
+# 3. The engine returns the file path for instant playback
+pygame.mixer.music.load(audio_file_path)
+pygame.mixer.music.play()
+
+# Keep the script running while the audio plays
+while pygame.mixer.music.get_busy():
+    pygame.time.Clock().tick(10)
