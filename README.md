@@ -56,10 +56,10 @@ from sada_tts import SadaTTS
 
 pygame.mixer.init()
 
-# 1. Initialize the engine ONCE when your agent boots up
+# 1. Initialize the engine ONCE when agent boots up
 tts_engine = SadaTTS()
 
-# ... inside your agent's main loop ...
+# ... inside agent's main loop ...
             .
             .
             .
