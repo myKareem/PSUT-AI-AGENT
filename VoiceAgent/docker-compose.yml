@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  voice-agent:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    depends_on:
+      - ollama-service
+
+  ollama-service:
+    image: ollama/ollama
+    container_name: ollama-service
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./Modelfile:/Modelfile
+      - ./qwen2.5-7b-instruct.Q4_K_M-001.gguf:/qwen2.5-7b-instruct.Q4_K_M-001.gguf
+      - ollama_data:/root/.ollama
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+volumes:
+  ollama_data:
