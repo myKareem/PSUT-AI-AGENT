@@ -8,7 +8,7 @@ import pygame
 # Import our custom modules
 from stt_engine import transcribe_audio
 from chatbot import generate_response
-from sada_tts import SadaTTS
+from hamsa_tts import HamsaTTS
 # ==========================================
 # AUDIO CONFIGURATION
 # ==========================================
@@ -44,7 +44,7 @@ def audio_callback(indata, frames, time_info, status):
 # ==========================================
 # PROCESSING PIPELINE
 # ==========================================
-def process_audio_buffer(byte_data: bytes, tts: SadaTTS):
+def process_audio_buffer(byte_data: bytes, tts: HamsaTTS):
     """
     Takes the recorded raw bytes, converts them for Whisper, 
     gets the text, and feeds it to the LLM.
@@ -61,6 +61,8 @@ def process_audio_buffer(byte_data: bytes, tts: SadaTTS):
         for sentence in generate_response(transcribed_text):
             try:
                 audio_file_path = tts.speak(sentence)
+                if audio_file_path is None:
+                    continue
                 pygame.mixer.music.load(audio_file_path)
                 pygame.mixer.music.play()
                 while pygame.mixer.music.get_busy():
@@ -80,7 +82,7 @@ def main():
     pygame.mixer.init()
     
     # Initialize TTS engine (loads model weights into GPU)
-    tts = SadaTTS()
+    tts = HamsaTTS()
     
     # Open the microphone stream
     try:

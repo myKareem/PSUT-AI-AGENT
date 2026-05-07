@@ -18,18 +18,15 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 import uvicorn
 
-# ── TTS path setup ──────────────────────────────────────────
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'tts-arabic-pytorch-master'))
-
 from stt_engine import transcribe_audio
 from chatbot import generate_response
-from sada_tts import SadaTTS
+from hamsa_tts import HamsaTTS
 
 # ── Initialize at module level (before uvicorn) ────────────
 GREETING_TEXT = "مرحبا معك المساعد الذكي لجامعة الاميرة سمية، كيف ممكن أساعدك؟"
 
 print("[SERVER] Initializing TTS engine...", flush=True)
-tts = SadaTTS()
+tts = HamsaTTS()
 
 print("[SERVER] Pre-generating greeting audio...", flush=True)
 _greet_path = tts.speak(GREETING_TEXT)
@@ -107,19 +104,58 @@ async def ws_endpoint(ws: WebSocket):
 
             await ws.send_json({"type": "transcription", "text": text})
 
-            # 4. LLM + TTS sentence-by-sentence
+            # 4. LLM + TTS sentence-by-sentence (with metrics)
             def _pipeline():
                 results = []
-                for sentence in generate_response(text):
+                ttft_ms = 0
+                tts_times = []
+                llm_start = time.perf_counter()
+
+                for i, sentence in enumerate(generate_response(text)):
+                    if i == 0:
+                        ttft_ms = (time.perf_counter() - llm_start) * 1000
+
+                    tts_t0 = time.perf_counter()
                     audio_path = tts.speak(sentence)
+                    tts_elapsed = (time.perf_counter() - tts_t0) * 1000
+                    tts_times.append(tts_elapsed)
+
                     if audio_path is None:
-                        continue  # text was empty after sanitization
+                        continue
                     with open(audio_path, "rb") as f:
                         wav = f.read()
                     results.append((sentence, wav))
-                return results
 
-            sentences = await asyncio.to_thread(_pipeline)
+                llm_total_ms = (time.perf_counter() - llm_start) * 1000
+
+                # Collect VRAM info
+                vram_used_mb = 0
+                vram_peak_mb = 0
+                try:
+                    import torch
+                    if torch.cuda.is_available():
+                        vram_used_mb = torch.cuda.memory_allocated() / 1024**2
+                        vram_peak_mb = torch.cuda.max_memory_allocated() / 1024**2
+                except Exception:
+                    pass
+
+                metrics = {
+                    "stt_ms": round(stt_ms, 1),
+                    "ttft_ms": round(ttft_ms, 1),
+                    "llm_total_ms": round(llm_total_ms, 1),
+                    "tts_avg_ms": round(sum(tts_times) / len(tts_times), 1) if tts_times else 0,
+                    "tts_last_ms": round(tts_times[-1], 1) if tts_times else 0,
+                    "vram_used_mb": round(vram_used_mb, 1),
+                    "vram_peak_mb": round(vram_peak_mb, 1),
+                    "sentence_count": len(results),
+                }
+                return results, metrics
+
+            results_and_metrics = await asyncio.to_thread(_pipeline)
+            sentences, metrics = results_and_metrics
+
+            # Send metrics immediately so dashboard updates in real-time
+            await ws.send_json({"type": "metrics", "data": metrics})
 
             for stxt, wav_data in sentences:
                 await ws.send_json({"type": "sentence", "text": stxt})
