@@ -1,0 +1,746 @@
+{
+  "summary": {
+    "total": 25,
+    "factual_accuracy": "23/25 (92.0%)",
+    "hallucination_free": "25/25 (100.0%)",
+    "tts_readiness": "25/25 (100.0%)",
+    "overall": "23/25 (92.0%)",
+    "avg_latency_ms": 912,
+    "categories": {
+      "CAG-FAQ": {
+        "total": 8,
+        "fa": 8,
+        "hl": 8,
+        "tts": 8,
+        "overall": 8
+      },
+      "RAG-Major": {
+        "total": 6,
+        "fa": 4,
+        "hl": 6,
+        "tts": 6,
+        "overall": 4
+      },
+      "STAFF": {
+        "total": 8,
+        "fa": 8,
+        "hl": 8,
+        "tts": 8,
+        "overall": 8
+      },
+      "GROUNDING": {
+        "total": 2,
+        "fa": 2,
+        "hl": 2,
+        "tts": 2,
+        "overall": 2
+      },
+      "TTS": {
+        "total": 1,
+        "fa": 1,
+        "hl": 1,
+        "tts": 1,
+        "overall": 1
+      }
+    }
+  },
+  "results": [
+    {
+      "id": 1,
+      "category": "CAG-FAQ",
+      "query": "كيف أعرف مرشدي الأكاديمي؟",
+      "ground_truth": "من خلال بوابة الطالب الإلكترونية، اختر بيانات الطالب ثم ملف الطالب ثم بيانات أكاديمية",
+      "response": "بمجرد ما يحدد القسم مساعدك الأكاديمي،بتصلك رسالة إلكترونية من الجامعة.وإذا لازم تتأكد،دخولك بوابة الطالب الإلكترونية وتطلع ملفك الشخصي،وهنالك بكون اسمه مكتوب بوضوح.",
+      "fa_pass": true,
+      "kw_matched": [
+        "بوابة الطالب"
+      ],
+      "kw_expected": [
+        "بوابة الطالب",
+        "بيانات"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 1349.2973000029451
+    },
+    {
+      "id": 2,
+      "category": "CAG-FAQ",
+      "query": "متى بستلم الهوية الجامعية؟",
+      "ground_truth": "عند بداية التدريس، راجع عمادة شؤون الطلبة. قبلها اعتمد الوصل المالي مع هويتك الشخصية",
+      "response": "عند بداية التدريس،وإذا كان لديك محاضرة أو مختبر أول يوم.قبل ذلك،استخدم الوصل المالي والهوية الشخصية للدخول للجامعة وللحضور للمحاضرات.",
+      "fa_pass": true,
+      "kw_matched": [
+        "هوية",
+        "وصل"
+      ],
+      "kw_expected": [
+        "شؤون الطلبة",
+        "هوية",
+        "وصل"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 808.1748999975389
+    },
+    {
+      "id": 3,
+      "category": "CAG-FAQ",
+      "query": "نسيت كلمة السر لبوابة الطالب، شو أعمل؟",
+      "ground_truth": "اضغط هل نسيت كلمة السر، أدخل الرقم الجامعي، سيتم إرسال رسالة لبريدك",
+      "response": "لأول مرة تدخل البوابة الإلكترونية،افتح براذر بوابة الطالب الإلكتروني وضغط على \"هل نسيت كلمة السر؟\".سيسألوك عن الرقم الجامعي،ثم يطلبك تتأكد إنك لست روبوت.إذا نجحت،سيوصللك رسالة تحتوي على تعليمات لتغيير كلمة السر وتقدر ترجع للنظام بعدها.",
+      "fa_pass": true,
+      "kw_matched": [
+        "كلمة السر",
+        "الرقم الجامعي"
+      ],
+      "kw_expected": [
+        "كلمة السر",
+        "الرقم الجامعي"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 1453.8600000014412
+    },
+    {
+      "id": 4,
+      "category": "CAG-FAQ",
+      "query": "هل امتحان القبول لجميع المتقدمين؟",
+      "ground_truth": "نعم لجميع المتقدمين مهما كانت معدلاتهم",
+      "response": "نعم،امتحان القبول مفتوح لكل المتقدمين بغض النظر عن معدلاتهم.",
+      "fa_pass": true,
+      "kw_matched": [
+        "نعم"
+      ],
+      "kw_expected": [
+        "نعم",
+        "جميع"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 509.07059999735793
+    },
+    {
+      "id": 5,
+      "category": "CAG-FAQ",
+      "query": "إذا لم أقبل في الدفعة اللي قدمت لها شو بصير؟",
+      "ground_truth": "اسمك يبقى في قائمة الانتظار وتدخل المنافسة مع الدفعة التالية",
+      "response": "إذا ما تم قبولك بالدفعة اللي قدمت عليها طلب القبول،بتعود لقائمة الانتظار وتنافس على الدفعة التانية.بتقدر تتابع حالتك من خلال بوابة الطالب الإلكترونية أو تسأل العمادة.",
+      "fa_pass": true,
+      "kw_matched": [
+        "قائمة",
+        "الدفعة",
+        "انتظار"
+      ],
+      "kw_expected": [
+        "قائمة",
+        "الدفعة",
+        "انتظار",
+        "منافسة"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 1032.0498000000953
+    },
+    {
+      "id": 6,
+      "category": "CAG-FAQ",
+      "query": "كيف أعمل براءة ذمة بعد التخرج؟",
+      "ground_truth": "ادخل بوابة الطالب، اختر طلب براءة ذمة، سبب تخرج، ثم راجع شؤون الطلبة والمكتبة والمالية",
+      "response": "بما أنك تخرجت،أول شي دخولك لـ \"بوابة الطالب الإلكترونية\" وطلبك براءة ذمة عبر بوابة الخدمة الذاتية.إذا كانت كل شواغلك مسددة،بتروح عمادة شؤون الطلبة تسليم الهوية،وبعدين المكتبة ومختبرات الكلية والدائرة المالية لتشيكوا إنك ما عندهم أي طلبات عليك.",
+      "fa_pass": true,
+      "kw_matched": [
+        "تخرج",
+        "براءة"
+      ],
+      "kw_expected": [
+        "تخرج",
+        "شهاد",
+        "براءة"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 1492.1710999988136
+    },
+    {
+      "id": 7,
+      "category": "CAG-FAQ",
+      "query": "شو الخطوة بعد ما قدمت طلب الالتحاق؟",
+      "ground_truth": "انتظر اتصال هاتفي أو email يبلغك عن موعد امتحان القبول",
+      "response": "بعد تقديم طلب الالتحاق،بتاخد خطوتين أساسيتين.أول شي بطلعلك رسالة إلكترونية أو تلفونية لتهيئتك لميعاد امتحان القبول.إذا نجحت فيه،بتحدد موعد مقابلة مع لجنة الكلية اللي بتختارك فيها.",
+      "fa_pass": true,
+      "kw_matched": [
+        "امتحان",
+        "موعد",
+        "رسالة"
+      ],
+      "kw_expected": [
+        "انتظر",
+        "اتصال",
+        "امتحان",
+        "موعد",
+        "رسالة",
+        "اختبار"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 1234.1396999981953
+    },
+    {
+      "id": 8,
+      "category": "CAG-FAQ",
+      "query": "كيف أقدم على الجامعة؟",
+      "ground_truth": "التقديم online من خلال بوابة الطالب الإلكترونية",
+      "response": "لتقديم طلب القبول،ابدأ من بوابة الطالب الإلكترونية (PSUT Online).هنالك رابط مباشر لـ \"بوابة الطالب\" على الموقع الرسمي للجامعة.",
+      "fa_pass": true,
+      "kw_matched": [
+        "بوابة",
+        "إلكتروني",
+        "تقديم"
+      ],
+      "kw_expected": [
+        "بوابة",
+        "إلكتروني",
+        "online",
+        "تقديم"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 874.2545999994036
+    },
+    {
+      "id": 9,
+      "category": "RAG-Major",
+      "query": "كم سعر ساعة الأمن السيبراني؟",
+      "ground_truth": "130 دينار، كلية الملك الحسين لعلوم الحوسبة، 132 ساعة",
+      "response": "سعر الساعة لبرنامج بكالوريوس الأمن السيبراني هو مئة وثلاثين دينار أردني (130 د.أ).",
+      "fa_pass": true,
+      "kw_matched": [
+        "مئة وثلاثين",
+        "130"
+      ],
+      "kw_expected": [
+        "مئة وثلاثين",
+        "130",
+        "الحوسبة",
+        "الحسين"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 1225.8056999999098
+    },
+    {
+      "id": 10,
+      "category": "RAG-Major",
+      "query": "كم ساعة لازم أخلص عشان أتخرج من إدارة الأعمال؟",
+      "ground_truth": "132 ساعة معتمدة، 81 ساعة تخصص",
+      "response": "لأجل التخرج من تخصص إدارة الأعمال بتعتمد 132 ساعة معتمدة.هاي الساعات بتكون موزعة على متطلبات تخصص إجبارية واختيارية،وبما فيها مواد أساسية ومختبرات ومشاريع تخرج.",
+      "fa_pass": true,
+      "kw_matched": [
+        "132"
+      ],
+      "kw_expected": [
+        "مئة واثنين وثلاثين",
+        "132",
+        "81"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 1427.3667000015848
+    },
+    {
+      "id": 11,
+      "category": "RAG-Major",
+      "query": "كم سعر ساعة المحاسبة؟",
+      "ground_truth": "120 دينار، كلية الملك طلال لتكنولوجيا الأعمال، 132 ساعة",
+      "response": "آسف ما عندي هالمعلومة هسا،بتقدر تتواصل مع عمادة القبول والتسجيل أو تراجع بوابة الطالب الإلكترونية لتشوف الأسعار الحالية.",
+      "fa_pass": false,
+      "kw_matched": [],
+      "kw_expected": [
+        "مئة وعشرين",
+        "120",
+        "طلال"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": false,
+      "latency_ms": 644.802199996775
+    },
+    {
+      "id": 12,
+      "category": "RAG-Major",
+      "query": "هندسة البرمجيات تحت أي كلية؟",
+      "ground_truth": "كلية الملك الحسين لعلوم الحوسبة",
+      "response": "كلية الملك الحسين لعلوم الحوسبة.",
+      "fa_pass": true,
+      "kw_matched": [
+        "الحسين",
+        "الحوسبة"
+      ],
+      "kw_expected": [
+        "الحسين",
+        "الحوسبة"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 1480.9230999962892
+    },
+    {
+      "id": 13,
+      "category": "RAG-Major",
+      "query": "كم ساعة تخرج الهندسة الإلكترونية؟",
+      "ground_truth": "160 ساعة معتمدة، كلية الملك عبدالله الثاني للهندسة، 130 دينار",
+      "response": "تخرج الهندسة الإلكترونية يتطلب 160 ساعة معتمدة.",
+      "fa_pass": true,
+      "kw_matched": [
+        "160",
+        "الهندسة"
+      ],
+      "kw_expected": [
+        "مئة وستين",
+        "160",
+        "الهندسة"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 1504.8490000044694
+    },
+    {
+      "id": 14,
+      "category": "RAG-Major",
+      "query": "شو شروط ماجستير الأمن السيبراني؟",
+      "ground_truth": "بكالوريوس في تخصص ذي صلة بتقدير جيد",
+      "response": "آسف ما عندي هالمعلومة هسا،بتقدر تتواصل مع عمادة الدراسات العليا أو القسم المعني بالماجستير لتشوف الشروط الدقيقة.",
+      "fa_pass": false,
+      "kw_matched": [],
+      "kw_expected": [
+        "بكالوريوس",
+        "جيد"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": false,
+      "latency_ms": 894.955799994932
+    },
+    {
+      "id": 15,
+      "category": "STAFF",
+      "query": "مين رئيس الجامعة؟",
+      "ground_truth": "أ.د. وجدان أبو الهيجاء، رئيس الجامعة",
+      "response": "رئيس الجامعة هو أ.د.وجدان أبو الهيجاء،وهو أستاذ بجامعة الأميرة سمية للتكنولوجيا.",
+      "fa_pass": true,
+      "kw_matched": [
+        "وجدان",
+        "الهيجاء",
+        "هيجاء"
+      ],
+      "kw_expected": [
+        "وجدان",
+        "الهيجاء",
+        "هيجاء"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 561.0573999947519
+    },
+    {
+      "id": 16,
+      "category": "STAFF",
+      "query": "مين رءيس الجامعه؟",
+      "ground_truth": "أ.د. وجدان أبو الهيجاء",
+      "response": "رئيس الجامعة هو أستاذ الدكتور وجدان أبو الهيجاء.بيمكنك التواصل معه على البريد الإلكتروني elhaija@psut.edu.jo أو الهاتف (06) 535 9949 خلسة 5000.",
+      "fa_pass": true,
+      "kw_matched": [
+        "وجدان",
+        "الهيجاء",
+        "هيجاء"
+      ],
+      "kw_expected": [
+        "وجدان",
+        "الهيجاء",
+        "هيجاء"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 982.4669000008726
+    },
+    {
+      "id": 17,
+      "category": "STAFF",
+      "query": "مين عميد كلية الحوسبة؟",
+      "ground_truth": "أ.د أنس ابو طالب",
+      "response": "أ.د أنس أبو طالب هو عضو هيئة التدريس بقسم الحوسبة،وهو من أعضاء مجلس العمداء وعميد كلية الملك الحسين لعلوم الحوسبة.",
+      "fa_pass": true,
+      "kw_matched": [
+        "أنس",
+        "أبو طالب"
+      ],
+      "kw_expected": [
+        "أنس",
+        "أبو طالب",
+        "ابو طالب"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 746.8879000007291
+    },
+    {
+      "id": 18,
+      "category": "STAFF",
+      "query": "مين عميد كليه الاعمال؟",
+      "ground_truth": "د. عدي الطويسي",
+      "response": "د.عدي الطويسي هو عميد كلية الملك طلال لتكنولوجيا الأعمال وأستاذ مشارك بقسم التسويق.",
+      "fa_pass": true,
+      "kw_matched": [
+        "عدي",
+        "الطويسي",
+        "طويسي"
+      ],
+      "kw_expected": [
+        "عدي",
+        "الطويسي",
+        "طويسي"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 557.314600002428
+    },
+    {
+      "id": 19,
+      "category": "STAFF",
+      "query": "مين عميد كلية الهندسة؟",
+      "ground_truth": "د. اسامة أبو شرخ",
+      "response": "د.أسامة أبو شرخ هو نائب عميد كلية الملك عبد الله الثاني للهندسة،وهو أستاذ مشارك بجامعة الأميرة سمية للتكنولوجيا.",
+      "fa_pass": true,
+      "kw_matched": [
+        "أبو شرخ"
+      ],
+      "kw_expected": [
+        "اسامة",
+        "أبو شرخ",
+        "ابو شرخ",
+        "اسامه"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 681.4998999980162
+    },
+    {
+      "id": 20,
+      "category": "STAFF",
+      "query": "شو ايميل دكتور محمد العزه؟",
+      "ground_truth": "m.azzeh@psut.edu.jo",
+      "response": "رقم أ. د. محمد العزه هو +96265359949 Ex: 5344،\nوالإيميل هو m.azzeh@psut.edu.jo.",
+      "fa_pass": true,
+      "kw_matched": [
+        "azzeh",
+        "m.azzeh"
+      ],
+      "kw_expected": [
+        "azzeh",
+        "m.azzeh"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 22.483200002170634
+    },
+    {
+      "id": 21,
+      "category": "STAFF",
+      "query": "مين رئيس قسم هندسة البرمجيات؟",
+      "ground_truth": "أ.د. عبدالله قصف",
+      "response": "رئيس قسم هندسة البرمجيات هو أ.د.Abdullah Al-Qussef،وهو أستاذ دكتور ويعمل في جامعة الأميرة سمية للتكنولوجيا.",
+      "fa_pass": true,
+      "kw_matched": [
+        "Abdullah",
+        "Qussef"
+      ],
+      "kw_expected": [
+        "عبدالله",
+        "قصف",
+        "Abdullah",
+        "qusef",
+        "Qussef"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 698.3419999960461
+    },
+    {
+      "id": 22,
+      "category": "STAFF",
+      "query": "شو إيميل قسم المحاسبة؟",
+      "ground_truth": "a.srouji@psut.edu.jo (د. عنان سروجي، رئيس قسم المحاسبة)",
+      "response": "رقم د. عنان سروجي هو +96265959949 Ex: 5405،\nوالإيميل هو a.srouji@psut.edu.jo.",
+      "fa_pass": true,
+      "kw_matched": [
+        "srouji",
+        "عنان",
+        "سروجي"
+      ],
+      "kw_expected": [
+        "srouji",
+        "عنان",
+        "سروجي"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 19.990799999504816
+    },
+    {
+      "id": 23,
+      "category": "GROUNDING",
+      "query": "شو عاصمة فرنسا؟",
+      "ground_truth": "REFUSE — not about PSUT",
+      "response": "آسف ما عندي هالمعلومة هسا،بتقدر تتواصل مع القسم المعني أو عمادة القبول والتسجيل إذا كانت معلوماتك الأكاديمية بتشمل هذا السؤال.",
+      "fa_pass": true,
+      "kw_matched": [
+        "آسف",
+        "ما عندي"
+      ],
+      "kw_expected": [
+        "آسف",
+        "ما عندي"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 806.7967999959365
+    },
+    {
+      "id": 24,
+      "category": "GROUNDING",
+      "query": "كم سعر البنزين اليوم؟",
+      "ground_truth": "REFUSE — not about PSUT",
+      "response": "آسف ما عندي هالمعلومة هسا،سعر البنزين بتتغير كل يوم وبكون بيد وزارة الطاقة والثروة المعدنية.",
+      "fa_pass": true,
+      "kw_matched": [
+        "آسف",
+        "ما عندي"
+      ],
+      "kw_expected": [
+        "آسف",
+        "ما عندي"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 567.8775999986101
+    },
+    {
+      "id": 25,
+      "category": "TTS",
+      "query": "كيف أدخل على بوابة الطالب الإلكترونية كطالب مستجد؟",
+      "ground_truth": "أدخل الرقم الجامعي وكلمة السر ثم وافق على الشروط",
+      "response": "أدخل الرقم الجامعي (اسم المستخدم) وكلمة السر التي تلقيتها من عمادة القبول والتسجيل.إذا نسيت كلمة السر،اضغط على \"هل نسيت كلمة السر؟\" ثم يرسلون لك رسالة بريدية لتعيد إعداد كلمة السر.",
+      "fa_pass": true,
+      "kw_matched": [
+        "الرقم الجامعي",
+        "كلمة السر"
+      ],
+      "kw_expected": [
+        "الرقم الجامعي",
+        "كلمة السر"
+      ],
+      "hl_pass": true,
+      "hallucinated_kw": [],
+      "tts_pass": true,
+      "tts_issues": {
+        "has_url": false,
+        "has_dots": false,
+        "has_markdown": false,
+        "has_emoji": false
+      },
+      "overall": true,
+      "latency_ms": 1230.0259999974514
+    }
+  ]
+}

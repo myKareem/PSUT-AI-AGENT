@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+*.log
+qwen2.5-7b-instruct.Q4_K_M-001.gguf
+local_qdrant_db/
+models/
