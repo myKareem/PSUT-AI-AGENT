@@ -57,7 +57,7 @@ def process_audio_buffer(byte_data: bytes, tts: HamsaTTS):
     
     # 3. If we caught actual words, pass to the LLM
     if transcribed_text:
-        print(f"\n{Colors.CYAN}Bot: {Colors.ENDC}", end="", flush=True)
+        
         for raw, cleaned in generate_response(transcribed_text):
             try:
                 audio_file_path = tts.speak(cleaned)
