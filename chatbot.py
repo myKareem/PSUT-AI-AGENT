@@ -95,7 +95,7 @@ MODEL_NAME   = "Omartificial-Intelligence-Space/Arabic-Triplet-Matryoshka-V2"
 LLM_MODEL    = "jordanian-uni-bot"
 ROUTER_MODEL = "qwen2.5:1.5b"
 
-SCORE_THRESHOLD  = 0.45   # Minimum cosine similarity to accept a RAG chunk
+SCORE_THRESHOLD  = 0.5   # Minimum cosine similarity to accept a RAG chunk
 CAG_THRESHOLD    = 0.45   # In-memory FAQ match threshold (lowered to catch colloquial paraphrases)
 TOP_K            = 4      # Chunks retrieved per collection
 ROUTER_TIMEOUT_S = 0.5    # Router max seconds before fallback to all collections
@@ -999,8 +999,8 @@ def retrieve_rag_context(query_str: str, query_vector: list, target_collections:
             if d_score >= 0.38 or b_score > 2.0:
                 # Limit chunk length to prevent LLM context overflow (lost-in-the-middle hallucination)
                 display_text = text
-                if len(display_text) > 1500:
-                    display_text = display_text[:1500] + "\n...[truncated]"
+                if len(display_text) > 3000:
+                    display_text = display_text[:3000] + "\n...[truncated]"
                     
                 preview = display_text[:200].replace("\n", " ")
                 retrieved_texts.append(f"Source ({collection}):\n{display_text}")
