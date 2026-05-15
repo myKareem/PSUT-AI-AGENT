@@ -24,6 +24,7 @@ from hamsa_tts import HamsaTTS
 
 # ── Initialize at module level (before uvicorn) ────────────
 GREETING_TEXT = "مرحبا معك المساعد الذكي لجامعة الاميرة سمية، كيف ممكن أساعدك؟"
+GLOBAL_VRAM_PEAK_MB = 0
 
 print("[SERVER] Initializing TTS engine...", flush=True)
 tts = HamsaTTS()
@@ -129,13 +130,17 @@ async def ws_endpoint(ws: WebSocket):
                 llm_total_ms = (time.perf_counter() - llm_start) * 1000
 
                 # Collect VRAM info
+                global GLOBAL_VRAM_PEAK_MB
                 vram_used_mb = 0
                 vram_peak_mb = 0
                 try:
-                    import torch
-                    if torch.cuda.is_available():
-                        vram_used_mb = torch.cuda.memory_allocated() / 1024**2
-                        vram_peak_mb = torch.cuda.max_memory_allocated() / 1024**2
+                    from chatbot import get_vram_mb
+                    vram_mb = get_vram_mb()
+                    if vram_mb > 0:
+                        vram_used_mb = vram_mb
+                        if vram_mb > GLOBAL_VRAM_PEAK_MB:
+                            GLOBAL_VRAM_PEAK_MB = vram_mb
+                        vram_peak_mb = GLOBAL_VRAM_PEAK_MB
                 except Exception:
                     pass
 
